@@ -1,0 +1,34 @@
+[
+  {
+    "id": "work-aunty-sick",
+    "character": "awful-aunty",
+    "topic": "work-and-career",
+    "keywords": ["don't wanna go to work", "dont wanna go to work", "don't want to go to work", "do not want to go to work"],
+    "text": "You don't want to go to work? Have you eaten? Are you sick? If you're sick, say so and stay there. If you're not, I still love you, and you are still going.",
+    "needsReview": true
+  },
+  {
+    "id": "work-uncle-broke",
+    "character": "no-mercy-uncle",
+    "topic": "work-and-career",
+    "keywords": ["don't wanna go to work", "dont wanna go to work", "don't want to go to work", "do not want to go to work"],
+    "text": "You don't want to go. Noted. You also don't want to be broke for the rest of your life. Stop making excuses, get up, and go. I'm not cushioning that. I do want you to be all right.",
+    "needsReview": true
+  },
+  {
+    "id": "work-hype-freedom",
+    "character": "hype-man",
+    "topic": "work-and-career",
+    "keywords": ["don't wanna go to work", "dont wanna go to work", "don't want to go to work", "do not want to go to work"],
+    "text": "You don't want to go to work? Beautiful. That means the reward is going to hit different. Clock in, collect what they owe you, and buy your freedom. I'm already proud.",
+    "needsReview": true
+  },
+  {
+    "id": "work-sister-lying",
+    "character": "crazy-little-sister",
+    "topic": "work-and-career",
+    "keywords": ["don't wanna go to work", "dont wanna go to work", "don't want to go to work", "do not want to go to work"],
+    "text": "Babe. I know you fucking lying. You don't want to go to work, or you don't want to deal with one particular person there? Say it properly. I'm on your side. I'm also not buying the vague version.",
+    "needsReview": true
+  }
+]

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tell Me Everything!</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <p class="age-notice">18+ · For adults. Expect sarcasm, adult humour, and occasional strong language.</p>
+    <main>
+      <p id="load-error" class="hint" hidden></p>
+      <section id="welcome" class="view">
+        <h1>Tell Me Everything!</h1>
+        <p class="tagline">You tell them. They listen. They may or may not judge.</p>
+        <p class="support">Four personalities. Your business. And absolutely no peace.</p>
+        <form id="situation-form">
+          <label for="situation">Your situation</label>
+          <textarea
+            id="situation"
+            name="situation"
+            rows="5"
+            placeholder="Tell us what happened. Leave absolutely nothing out..."
+          ></textarea>
+          <p id="situation-hint" class="hint" role="status">You’ll need to tell us something first!</p>
+          <p class="nudge">Is it work drama? Relationship issues? Friendship stuff? Tell us, we're listening.</p>
+          <button id="submit-situation" type="submit" disabled>Tell them</button>
+        </form>
+      </section>
+
+      <section id="choose" class="view" hidden>
+        <h2>Okay, who are we asking?</h2>
+        <p class="support">Your juicy business has been received. Choose your advisor wisely. Or don't. We love a bad decision.</p>
+        <p class="situation-summary">You said: <span id="choose-situation"></span></p>
+        <div id="character-cards" class="cards"></div>
+        <button id="let-speak" type="button" disabled>Choose a character</button>
+      </section>
+
+      <section id="response" class="view" hidden>
+        <p id="review-label" class="review-label" hidden>Sample — needs your review</p>
+        <h2 id="response-name"></h2>
+        <p id="response-blurb" class="blurb"></p>
+        <p id="response-text" class="reply"></p>
+        <p class="situation-summary">You said: <span id="response-situation"></span></p>
+        <button id="ask-another-character" type="button">Ask another character</button>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
