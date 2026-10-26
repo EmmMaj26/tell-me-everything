@@ -69,9 +69,9 @@ The page feels like a cheeky entertainment magazine mixed with a fun group chat.
 
 Character colors:
 
-- Awful Aunty, elephant: plum and pink
-- No Mercy Uncle, lion: charcoal
-- Your Hype Man, giraffe: green
+- Nosey Aunty, elephant: plum and pink
+- No Mercy Uncle, lion: charcoal, deep brown, muted gold, and cream
+- Your Hype Man Brother, giraffe: forest green, sage, warm brown, gold, cream, and white
 - Your Crazy Little Sister, cat: lavender
 
 The first build draws each character in the page with SVG, so the pictures travel with the files and do not come from another service. Each picture stays recognizable at card size and beside a reply: elephant, lion with a mane, giraffe, cat with ears and tail. Clothing starts with the signature pieces that can be drawn simply: Aunty’s glasses and a structured bag, Uncle’s suit and mane, the giraffe’s jacket and sneakers, the cat’s wig, hoops, and tail. Richer fashion detail can be refined after the journey works. Outfit changes are drawing changes, not new product features.
@@ -125,7 +125,7 @@ A library entry looks like this:
 ```json
 {
   "id": "work-aunty-sick",
-  "character": "awful-aunty",
+  "character": "nosey-aunty",
   "topic": "work-and-career",
   "keywords": ["don't wanna go to work", "dont wanna go to work", "work"],
   "text": "You don't want to go? Have you eaten? You sound poorly.",
@@ -135,7 +135,7 @@ A library entry looks like this:
 
 The first demo includes every character and enough sample replies to show different personalities for the same situation. `needsReview: true` means the line is sample copy. The page shows a visible label, “Sample — needs your review,” on any reply with that flag. It is not approved humour until Maro reviews it and the flag is removed. Scope ref: `scope.md > The Response Library`.
 
-Character ids are `awful-aunty`, `no-mercy-uncle`, `hype-man`, and `crazy-little-sister`. Topics start as `work-and-career`, `dating-and-relationships`, `friendships`, `money`, and `everyday-life`. A new topic is a new string on an entry, not a code change.
+Character ids are `nosey-aunty`, `no-mercy-uncle`, `hype-man`, and `crazy-little-sister`. Topics start as `work-and-career`, `dating-and-relationships`, `friendships`, `money`, and `everyday-life`. A new topic is a new string on an entry, not a code change.
 
 Safety entries are phrases plus which message they select: `immediate` or `serious`. They are data, not jokes.
 

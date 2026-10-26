@@ -1,0 +1,25 @@
+{
+  "immediateMessage": "If you or someone else may be in danger, contact local emergency services or someone you trust now. This app is for entertainment and cannot provide the urgent help you may need.",
+  "seriousMessage": "I’m really sorry you’re going through this. You deserve support, and you don’t have to handle it alone. ❤️\nI’m an entertainment app, so I’m not equipped to provide the support you may need right now. Please consider reaching out to someone you trust who can be there for you.",
+  "immediate": [
+    "want to hurt them",
+    "without getting caught",
+    "threatened to hurt me",
+    "scared to go home",
+    "frightened of what my partner might do",
+    "scared of what my partner might do",
+    "afraid of what my partner might do",
+    "partner might hurt me",
+    "partner will hurt me",
+    "don't feel safe going home",
+    "do not feel safe going home",
+    "frightened to go home",
+    "afraid to go home",
+    "partner gets violent",
+    "would hurt me"
+  ],
+  "serious": [
+    "i feel hopeless",
+    "i don't know how to keep going"
+  ]
+}

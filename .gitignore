@@ -5,3 +5,10 @@
 .env
 .env.*
 !.env.example
+
+# Local install and machine files.
+.pillow/
+.DS_Store
+
+# Sister portrait preview exports, not the app images.
+images-preview-sister-*.jpg

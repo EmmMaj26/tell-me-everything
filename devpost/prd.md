@@ -26,7 +26,7 @@ Source: `scope.md > The Core Loop`.
 
 1. Someone opens Tell Me Everything! and lands on the welcome screen. The 18+ notice is at the top, before the app name and tagline. It stays visible without taking over the screen. Below it they see the name, the tagline, the supporting line, a place to describe what happened, and the line under that box. They have not chosen a character yet.
 2. They enter the situation and submit it. They do this before they choose a character. Submit stays disabled while the box is empty or only spaces, and the screen says “You’ll need to tell us something first!” Once they type something, submit turns on. A successful submit trims spaces at the start and end. They stay on this screen until there is something to send.
-3. They arrive on Choose your advisor. They see the situation they just submitted, with a way to edit it, and four character cards. Edit stays on this screen: the summary becomes a text field filled with the current situation, with Save changes and Cancel. Save changes stays unavailable while the field is empty or only spaces, and the screen says “You’ll need to tell us something first!” A real save trims spaces at the ends, keeps the wording in the middle, and returns to the normal card view. Cancel always restores the previous text. Neither action asks for a response. They select one card. The card is highlighted, and a button names that character, for example "Let Awful Aunty speak." The next character they choose answers the latest saved situation.
+3. They arrive on Choose your advisor. They see the situation they just submitted, with a way to edit it, and four character cards. Edit stays on this screen: the summary becomes a text field filled with the current situation, with Save changes and Cancel. Save changes stays unavailable while the field is empty or only spaces, and the screen says “You’ll need to tell us something first!” A real save trims spaces at the ends, keeps the wording in the middle, and returns to the normal card view. Cancel always restores the previous text. Neither action asks for a response. They select one card. The card is highlighted, and a button names that character, for example "Let Nosey Aunty speak." The next character they choose answers the latest saved situation.
 4. They click that button. The same situation is kept. They do not type it again. If a reply is genuinely being prepared, they see that character's typing line. If a curated reply is ready immediately, they see the reply with no added wait. The typing line disappears as soon as the reply is ready.
 5. The ready screen shows the selected character's name and visual identity first, then the full response. The original situation stays reachable. “Ask another character” returns to Choose your advisor with that same situation, so they can pick a different character. The new character responds to it without asking them to type it again. “Ask for another response” stays on the response screen. The same character gives a different answer to the same situation, shown in place of the previous one. They do not type the situation again or choose another character. If they tap “Ask for another response” and no suitable alternative is available, they see “Hmm, we need a little more to work with! Try telling us what happened in a different way.” and two choices: “Try again” and “Ask another character.” Try again makes the original situation editable on the response screen. They change the text and tap “Submit again.” The current character stays selected. Cancel restores the original situation and returns to the previous response. They are not sent back to the welcome screen. A serious situation still uses that character, with a serious tone and no jokes. If it suggests immediate danger, the response is safety guidance instead.
 
@@ -62,12 +62,12 @@ This screen appears after the situation is submitted. It stays simple, playful, 
 
 The card lines below are interface copy. They do not replace the personalities in `scope.md > Inspiration & Identity`.
 
-- **Awful Aunty** — concerned, nosy, full of advice, overly affectionate.
-- **No Mercy Uncle** — straight facts, zero cushioning, kinda harsh but with love.
-- **Your Hype Man** — loud support, unreasonable confidence, urgency to be your best self no matter how wild the goal is.
+- **Nosey Aunty** — all up in your business. Full of advice and love, very nosy.
+- **No Mercy Uncle** — brutally honest. Calls out your nonsense. Wants you to do better, even when it hurts.
+- **Your Hype Man Brother** — believes in you. Pumps you up. Finds the bright side. Turns every problem into a comeback story.
 - **Your Crazy Little Sister** — side-eye, questions, pure audacity, on your side and still unhinged.
 
-One character can be selected at a time. The selected card has a clear visual highlight. A button shows the selected character's name, for example "Let Awful Aunty speak." Clicking it opens that character's response.
+One character can be selected at a time. The selected card has a clear visual highlight. A button shows the selected character's name, for example "Let Nosey Aunty speak." Clicking it opens that character's response.
 
 There is no account, no payment, and no requirement to pick a topic first.
 
@@ -76,9 +76,9 @@ Source: `scope.md > The Core Loop` and `scope.md > Matching and the Hybrid Reply
 
 While a response is genuinely being prepared, the screen shows the selected character's typing line. These lines are interface copy. They do not change `scope.md > Inspiration & Identity`, and they are not entries in the curated response library.
 
-- **Awful Aunty:** “Awful Aunty is typing… and she's shocked. 😱”
+- **Nosey Aunty:** “Nosey Aunty is typing… and she's shocked. 😱”
 - **No Mercy Uncle:** “No Mercy Uncle is typing… and he's coming for you. 💀”
-- **Your Hype Man:** “Your Hype Man is typing… and he's about to bring it! 🔥”
+- **Your Hype Man Brother:** “Your Hype Man Brother is typing… and he's about to bring it! 🔥”
 - **Your Crazy Little Sister:** “Your Crazy Little Sister is typing… and she is giving you bombastic side eye . 👀”
 
 The lines can be revised on their own, without changing how the rest of the screen behaves.
@@ -109,18 +109,18 @@ The shared style is fashion-forward, expressive, cool, and polished: one cast of
 
 Outfits below are visual direction. They can be refined later. They are not new product features. Personalities stay as in `scope.md > Inspiration & Identity`. Typing lines stay as already written.
 
-- **Awful Aunty is an elephant.** Glamorous and dramatic. Elegant Ankara-print clothing, a coordinated skirt suit, or a sophisticated caftan. Gold jewelry, statement glasses, a stylish gele or head wrap, and a structured handbag. Face and posture show shock, concern, and nosiness, like someone who remembers everybody's business. Color treatment: plum and pink.
-- **No Mercy Uncle is a lion.** Stern, authoritative, and impeccably dressed. A tailored charcoal suit or a smart traditional senator-style outfit. Restrained accessories, such as a wristwatch and a pocket square. A rich mane. A direct stare, one raised eyebrow, and a controlled posture: blunt, judging, and out of patience for excuses. Color treatment: charcoal.
-- **Your Hype Man is a giraffe.** Charismatic and energetic. Contemporary streetwear, such as a varsity jacket or a fashionable tracksuit, with fresh sneakers. Optional chain, cap, or sunglasses. Animated poses, a broad grin, and confident, friendly body language: loud encouragement and unwavering loyalty. Color treatment: green.
+- **Nosey Aunty is an elephant.** Glamorous, loving, and extremely nosy. Large ears, a long trunk, and grey skin. Voluminous dark hair with silver highlights, stylish glasses, pearl jewellery, and gold accessories. A plum blouse, blush-pink trousers, heels, and a fashionable handbag. Color treatment: plum, pink, cream, and gold.
+- **No Mercy Uncle is a lion.** Mature, imposing, and dry. A full mane, a feline muzzle, and whiskers. His signature look is a sharp charcoal tailored suit, white shirt, dark tie, pocket square, polished dark shoes, and a gold watch. Color treatment: charcoal, deep brown, muted gold, and cream.
+- **Your Hype Man Brother is a giraffe.** Charismatic and energetic. A long neck, brown spots, ossicones, and a giraffe muzzle. His signature look is a green varsity jacket, white T-shirt, dark trousers, green-and-white trainers, a gold chain, and dark sunglasses. Color treatment: forest green, sage green, warm brown, gold, cream, and white.
 - **Your Crazy Little Sister is a cat.** Glamorous, fashionable, and mischievous, confident and cheeky, not sexualized. A long black wig with a fashionable center part or dramatic waves. Gold hoop earrings, layered gold necklaces, and long manicured nails. A trendy outfit such as a crop top with jeans and sneakers or heels, or a mini dress with heels. Dramatic side-eye, arched eyebrows, suspicion, and judgmental amusement. Ears and tail stay visible. Color treatment: lavender.
 
 The writing is bold, modern, playful, and easy to read. Headings are strong. Body text is clean. Buttons and messages have a little personality. The overall feel is a cheeky entertainment magazine mixed with a fun group chat: polished and readable, not childish or cluttered. The type complements the four colourful animal characters and does not compete with them. Suitable fonts are chosen during implementation to match this style. Character color treatments are already set.
 
 The four characters keep the names and personalities in `scope.md > Inspiration & Identity`:
 
-- **Awful Aunty:** affectionate, nosy, dramatic, and full of unsolicited advice.
-- **No Mercy Uncle:** blunt, dry, cutting, and allergic to excuses, with occasional encouragement.
-- **Your Hype Man:** loud, loyal, confident, and hilariously encouraging.
+- **Nosey Aunty:** affectionate, inquisitive, funny when she judges, dramatic, and impossible to keep out of your business. Her signature line is: "So tell me everything… including your love life, oh!"
+- **No Mercy Uncle:** brutally honest, dryly sarcastic, and demanding, with a love he rarely says out loud. His signature line is: "I'm going to tell you what nobody else has the guts to say."
+- **Your Hype Man Brother:** charismatic, enthusiastic, and fiercely loyal. He is hilariously overconfident, and his support is genuine. His signature line is: "First of all, you're a legend. Now let's figure this out!"
 - **Your Crazy Little Sister:** exasperated, judgemental, scandalised, nosy, and interrogative. Her signature catchphrase is: "Babe. I know you fucking lying."
 
 ## Features and Behavior

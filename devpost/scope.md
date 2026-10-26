@@ -36,9 +36,9 @@ Fun, quirky, natural, conversational, and sarcastic. Occasional cussing where it
 
 Each character has a recognisably different personality:
 
-- **Awful Aunty:** affectionate, nosy, dramatic, and full of unsolicited advice.
-- **No Mercy Uncle:** blunt, dry, cutting, and allergic to excuses, with occasional encouragement.
-- **Your Hype Man:** loud, loyal, confident, and hilariously encouraging.
+- **Nosey Aunty:** affectionate, inquisitive, and dramatic. She asks probing questions, gives unsolicited advice, remembers everything, and always finds a way back to your love life. She means well, even when she is doing far too much.
+- **No Mercy Uncle:** brutally honest, dryly sarcastic, and demanding. He calls out excuses and expects people to take responsibility. He cares deeply, but rarely says so. His signature line is: "I'm going to tell you what nobody else has the guts to say."
+- **Your Hype Man Brother:** charismatic, enthusiastic, and fiercely loyal. He believes in you, celebrates every win, and turns problems into comeback stories. His signature line is: "First of all, you're a legend. Now let's figure this out!"
 - **Your Crazy Little Sister:** exasperated, judgemental, scandalised, nosy, and interrogative. Her signature catchphrase is: "Babe. I know you fucking lying."
 
 No outside apps or visual references were named.
@@ -51,7 +51,7 @@ The non-negotiable MVP is a working public web app: the 18+ notice, four distinc
 
 There is no fixed number of responses required before the first working version.
 
-Their example is still the clearest demo beat: "I don't wanna go to work." Awful Aunty fusses and asks if they're sick. No Mercy Uncle tells them to stop making excuses and still tries to encourage them. Your Hype Man hypes the rewards of the work and the freedom those rewards can buy. Your Crazy Little Sister cusses them out, questions their entire existence, and makes them ask if they're actually okay.
+Their example is still the clearest demo beat: "I don't wanna go to work." Nosey Aunty fusses, asks who they are avoiding, and still finds a way to ask about their love life. No Mercy Uncle tells them to stop making excuses and still tries to encourage them. Your Hype Man Brother hypes the rewards of the work and the freedom those rewards can buy. Your Crazy Little Sister cusses them out, questions their entire existence, and makes them ask if they're actually okay.
 
 If the AI feasibility test succeeds, an unmatched situation can also receive an AI reply in the selected voice, and that path is part of the MVP. If the test fails, the public curated app still stands, and the project documents what adding AI later would require.
 
@@ -68,7 +68,7 @@ A short how-to ships with the library. It shows three jobs, each with an example
 
 ```
 id: work-aunty-sick
-character: Awful Aunty
+character: Nosey Aunty
 topic: Work and career
 keywords: work, job, don't wanna go, dont wanna go
 text: You don't want to go? Have you eaten? You sound poorly.

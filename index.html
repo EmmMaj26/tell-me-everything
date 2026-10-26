@@ -4,47 +4,200 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Tell Me Everything!</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=editorial18" />
   </head>
   <body>
     <p class="age-notice">18+ · For adults. Expect sarcasm, adult humour, and occasional strong language.</p>
     <main>
       <p id="load-error" class="hint" hidden></p>
       <section id="welcome" class="view">
-        <h1>Tell Me Everything!</h1>
-        <p class="tagline">You tell them. They listen. They may or may not judge.</p>
-        <p class="support">Four personalities. Your business. And absolutely no peace.</p>
-        <form id="situation-form">
-          <label for="situation">Your situation</label>
-          <textarea
-            id="situation"
-            name="situation"
-            rows="5"
-            placeholder="Tell us what happened. Leave absolutely nothing out..."
-          ></textarea>
-          <p id="situation-hint" class="hint" role="status">You’ll need to tell us something first!</p>
-          <p class="nudge">Is it work drama? Relationship issues? Friendship stuff? Tell us, we're listening.</p>
-          <button id="submit-situation" type="submit" disabled>Tell them</button>
-        </form>
+        <div class="welcome-layout">
+          <div class="welcome-intro">
+            <h1>Tell Me Everything!</h1>
+            <p class="tagline">You tell them. They listen. They may or may not judge.</p>
+            <p class="support">Four personalities. Your business. And absolutely no peace.</p>
+          </div>
+          <ul class="cast">
+            <li class="cast-card nosey-aunty">
+              <div class="cast-art" data-cast="nosey-aunty"></div>
+              <div class="cast-words">
+                <p class="cast-name">Nosey Aunty</p>
+                <p class="bubble">So… have you told your mother?</p>
+              </div>
+            </li>
+            <li class="cast-card no-mercy-uncle">
+              <div class="cast-art" data-cast="no-mercy-uncle"></div>
+              <div class="cast-words">
+                <p class="cast-name">No Mercy Uncle</p>
+                <p class="bubble">Let's hear the facts. Leave the excuses outside.</p>
+              </div>
+            </li>
+            <li class="cast-card hype-man">
+              <div class="cast-art" data-cast="hype-man"></div>
+              <div class="cast-words">
+                <p class="cast-name">Your Hype Man Brother</p>
+                <p class="bubble">First of all, you're a legend. I'm listening!</p>
+              </div>
+            </li>
+            <li class="cast-card crazy-little-sister">
+              <div class="cast-art" data-cast="crazy-little-sister"></div>
+              <div class="cast-words">
+                <p class="cast-name">Your Crazy Little Sister</p>
+                <p class="bubble">Give me the actual story.</p>
+              </div>
+            </li>
+          </ul>
+          <div class="welcome-form">
+            <form id="situation-form" class="situation-card">
+              <label for="situation">Your situation</label>
+              <textarea
+                id="situation"
+                name="situation"
+                rows="6"
+                placeholder="Tell us what happened. Leave absolutely nothing out..."
+              ></textarea>
+              <p id="situation-hint" class="hint" role="status">You’ll need to tell us something first!</p>
+              <p class="nudge">Is it work drama? Relationship issues? Friendship stuff? Tell us, we're listening.</p>
+              <button id="submit-situation" type="submit" disabled>Tell them</button>
+              <button id="surprise-me" type="button" class="secondary" disabled>Surprise me</button>
+              <div id="surprise-panel" class="surprise-panel" hidden>
+                <p id="surprise-dilemma"></p>
+                <div class="actions">
+                  <button id="surprise-accept" type="button">Use this</button>
+                  <button id="surprise-another" type="button" class="secondary">Another one</button>
+                </div>
+              </div>
+            </form>
+            <button id="start-over-welcome" type="button" class="secondary start-over" data-start-over hidden>
+              Start over
+            </button>
+          </div>
+        </div>
       </section>
 
       <section id="choose" class="view" hidden>
+        <div class="nav-row">
+          <button id="back-choose" type="button" class="secondary">Back</button>
+          <button id="start-over-choose" type="button" class="secondary start-over" data-start-over hidden>
+            Start over
+          </button>
+        </div>
         <h2>Okay, who are we asking?</h2>
         <p class="support">Your juicy business has been received. Choose your advisor wisely. Or don't. We love a bad decision.</p>
-        <p class="situation-summary">You said: <span id="choose-situation"></span></p>
+        <div id="choose-read" class="summary-row">
+          <p class="situation-summary">You said: <span id="choose-situation"></span></p>
+          <button id="edit-situation" type="button" class="secondary">Edit</button>
+        </div>
+        <form id="edit-form" hidden>
+          <label for="edit-text">Your situation</label>
+          <textarea id="edit-text" rows="4"></textarea>
+          <p id="edit-hint" class="hint" role="status" hidden>You’ll need to tell us something first!</p>
+          <div class="actions">
+            <button id="save-changes" type="submit">Save changes</button>
+            <button id="cancel-edit" type="button" class="secondary">Cancel</button>
+          </div>
+        </form>
+        <div class="choice-actions">
+          <button id="ask-group" type="button">Ask the whole group</button>
+          <button id="ask-pair" type="button">Two opinions</button>
+        </div>
         <div id="character-cards" class="cards"></div>
         <button id="let-speak" type="button" disabled>Choose a character</button>
       </section>
 
+      <section id="group" class="view" hidden>
+        <div class="nav-row">
+          <button id="back-group" type="button" class="secondary">Back</button>
+          <button id="start-over-group" type="button" class="secondary start-over" data-start-over hidden>
+            Start over
+          </button>
+          <button type="button" class="secondary" data-stop-speech hidden>Stop Speaking</button>
+        </div>
+        <h2>The whole group</h2>
+        <p class="hint speech-note" data-speech-note hidden></p>
+        <p class="situation-summary">You said: <span id="group-situation"></span></p>
+        <div id="group-replies" class="group-list"></div>
+      </section>
+
+      <section id="pair" class="view" hidden>
+        <div class="nav-row">
+          <button id="back-pair" type="button" class="secondary">Back</button>
+          <button id="start-over-pair" type="button" class="secondary start-over" data-start-over hidden>
+            Start over
+          </button>
+        </div>
+        <h2>Two opinions</h2>
+        <p id="pair-hint" class="support">Pick two different characters.</p>
+        <p class="situation-summary">You said: <span id="pair-situation"></span></p>
+        <div id="pair-cards" class="cards"></div>
+        <button id="hear-both" type="button" disabled>Pick two characters</button>
+      </section>
+
+      <section id="pair-result" class="view" hidden>
+        <div class="nav-row">
+          <button id="back-pair-result" type="button" class="secondary">Back</button>
+          <button id="start-over-pair-result" type="button" class="secondary start-over" data-start-over hidden>
+            Start over
+          </button>
+          <button type="button" class="secondary" data-stop-speech hidden>Stop Speaking</button>
+        </div>
+        <h2>Two opinions</h2>
+        <p class="hint speech-note" data-speech-note hidden></p>
+        <p class="situation-summary">You said: <span id="pair-result-situation"></span></p>
+        <div id="pair-replies" class="group-list"></div>
+        <button id="change-pair" type="button" class="secondary">Change the pair</button>
+      </section>
+
       <section id="response" class="view" hidden>
+        <div class="nav-row">
+          <button id="back-response" type="button" class="secondary">Back</button>
+          <button id="start-over-response" type="button" class="secondary start-over" data-start-over hidden>
+            Start over
+          </button>
+          <button type="button" class="secondary" data-stop-speech hidden>Stop Speaking</button>
+        </div>
         <p id="review-label" class="review-label" hidden>Sample — needs your review</p>
-        <h2 id="response-name"></h2>
-        <p id="response-blurb" class="blurb"></p>
+        <div class="identity">
+          <div id="response-art"></div>
+          <div>
+            <h2 id="response-name"></h2>
+            <p id="response-blurb" class="blurb"></p>
+          </div>
+        </div>
         <p id="response-text" class="reply"></p>
-        <p class="situation-summary">You said: <span id="response-situation"></span></p>
-        <button id="ask-another-character" type="button">Ask another character</button>
+        <div id="response-speech" class="speech-row">
+          <button id="hear-response" type="button">🔊 Hear Response</button>
+          <p class="hint speech-note" data-speech-note hidden></p>
+        </div>
+        <div id="response-read">
+          <p class="situation-summary">You said: <span id="response-situation"></span></p>
+          <div class="actions">
+            <button id="ask-another-character" type="button">Ask another character</button>
+            <button id="ask-another-response" type="button" class="secondary">Ask for another response</button>
+            <button id="try-again" type="button" hidden>Try again</button>
+          </div>
+        </div>
+        <form id="retry-form" hidden>
+          <label for="retry-text">Your situation</label>
+          <textarea id="retry-text" rows="4"></textarea>
+          <p id="retry-hint" class="hint" role="status" hidden>You’ll need to tell us something first!</p>
+          <div class="actions">
+            <button id="submit-again" type="submit">Submit again</button>
+            <button id="cancel-retry" type="button" class="secondary">Cancel</button>
+          </div>
+        </form>
       </section>
     </main>
-    <script src="app.js"></script>
+    <div id="start-over-confirm" class="confirm" hidden role="dialog" aria-modal="true" aria-labelledby="start-over-title">
+      <div class="confirm-card">
+        <p id="start-over-title">Start over? This clears your situation and the reply.</p>
+        <div class="actions">
+          <button id="keep-it" type="button" class="secondary">Keep it</button>
+          <button id="confirm-start-over" type="button">Start over</button>
+        </div>
+      </div>
+    </div>
+    <script src="art.js?v=editorial12"></script>
+    <script src="app.js?v=editorial26"></script>
   </body>
 </html>

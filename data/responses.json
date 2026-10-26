@@ -1,34 +1,2775 @@
 [
   {
     "id": "work-aunty-sick",
-    "character": "awful-aunty",
+    "character": "nosey-aunty",
     "topic": "work-and-career",
+    "priority": 1,
     "keywords": ["don't wanna go to work", "dont wanna go to work", "don't want to go to work", "do not want to go to work"],
-    "text": "You don't want to go to work? Have you eaten? Are you sick? If you're sick, say so and stay there. If you're not, I still love you, and you are still going.",
+    "text": "Dahlinggg why don't you want to go to work?! 👀 Is it the job, the manager, or one colleague trying your patience? Because these are three very different problems. Now, have you eaten? You cannot be miserable AND hungry. Tell Aunty everything.",
+    "needsReview": true
+  },
+  {
+    "id": "work-aunty-text-me",
+    "character": "nosey-aunty",
+    "topic": "work-and-career",
+    "priority": 1,
+    "keywords": ["don't wanna go to work", "dont wanna go to work", "don't want to go to work", "do not want to go to work"],
+    "text": "I remember the last time. The job was fine. The problem had a name and a nice shirt. Are they still there? Don't tidy the story, I will hear it. Eat something, go in, and text me the second you sit down. If it is the same person, this is not a bad week. This is a pattern, and I want to know who else in that office has noticed.",
     "needsReview": true
   },
   {
     "id": "work-uncle-broke",
     "character": "no-mercy-uncle",
     "topic": "work-and-career",
+    "priority": 1,
     "keywords": ["don't wanna go to work", "dont wanna go to work", "don't want to go to work", "do not want to go to work"],
-    "text": "You don't want to go. Noted. You also don't want to be broke for the rest of your life. Stop making excuses, get up, and go. I'm not cushioning that. I do want you to be all right.",
+    "text": "You don't want to go. Don't be ridiculous. Does the rent know? Listen, if the job is destroying your health, make an exit plan. If you're just fed up today, get up, go in, collect your money and plan your next move. Your resignation letter is not a financial strategy.",
+    "needsReview": true
+  },
+  {
+    "id": "work-uncle-paid",
+    "character": "no-mercy-uncle",
+    "topic": "work-and-career",
+    "priority": 1,
+    "keywords": ["don't wanna go to work", "dont wanna go to work", "don't want to go to work", "do not want to go to work"],
+    "text": "The feeling can sit in the car with you. It does not get to make the decision. Do the shift. If it is still unbearable at lunch, we talk about a real plan, not a moan from the pillow. A plan is a date to look at one other job, or a word with the person who can change your hours. Pick one before you clock out. I will ask which one you picked.",
     "needsReview": true
   },
   {
     "id": "work-hype-freedom",
     "character": "hype-man",
     "topic": "work-and-career",
+    "priority": 1,
     "keywords": ["don't wanna go to work", "dont wanna go to work", "don't want to go to work", "do not want to go to work"],
-    "text": "You don't want to go to work? Beautiful. That means the reward is going to hit different. Clock in, collect what they owe you, and buy your freedom. I'm already proud.",
+    "text": "BROOOO! 😭 I know that Monday morning spirit has just entered your body on a random Tuesday! But listen to me: that salary is funding your freedom, your soft life and your future escape from these people! Go collect your money. Then let's build a plan so one day you can tell that job, \"It was nice knowing you!\" MIC DROP! 🎤",
+    "needsReview": true
+  },
+  {
+    "id": "work-hype-trailer",
+    "character": "hype-man",
+    "topic": "work-and-career",
+    "priority": 1,
+    "keywords": ["don't wanna go to work", "dont wanna go to work", "don't want to go to work", "do not want to go to work"],
+    "text": "Say less. The dread is loud, and you are still the one who can get through the ugly hour. Do that hour, then buy yourself something ridiculous on the way home. Come back and tell me how you handled it. I am not asking you to love the job. I am asking you to leave with proof that you did not abandon yourself in the car park. That counts.",
     "needsReview": true
   },
   {
     "id": "work-sister-lying",
     "character": "crazy-little-sister",
     "topic": "work-and-career",
+    "priority": 1,
     "keywords": ["don't wanna go to work", "dont wanna go to work", "don't want to go to work", "do not want to go to work"],
-    "text": "Babe. I know you fucking lying. You don't want to go to work, or you don't want to deal with one particular person there? Say it properly. I'm on your side. I'm also not buying the vague version.",
+    "text": "Babe. I know you fucking lying. You were just complaining about this job last week! But wait. Are you tired tired, or is somebody at that office making your life hell? Because I need all the DETAILS before I decide whether we're updating your CV or simply blocking your manager in our hearts.",
+    "needsReview": true
+  },
+  {
+    "id": "work-sister-treat",
+    "character": "crazy-little-sister",
+    "topic": "work-and-career",
+    "priority": 1,
+    "keywords": ["don't wanna go to work", "dont wanna go to work", "don't want to go to work", "do not want to go to work"],
+    "text": "Clock in, look expensive, and leave their nonsense in the group chat. If the whole story is still ‘I don't wanna,’ Babe. I know you fucking lying. There's a name you're not saying. Say the name. I've got you either way. We can hate the shift and still get you home with your rent and your nerve in the same bag. Start talking.",
+    "needsReview": true
+  },
+  {
+    "id": "work-aunty-credit",
+    "character": "nosey-aunty",
+    "topic": "work-and-career",
+    "priority": 2,
+    "keywords": ["taking credit for my work", "took credit for my work", "takes credit for my work", "taken credit for my work", "credit for my work", "stole credit for my work"],
+    "text": "Dahlinggg! 😳 So this person has carried your work, borrowed your clothes, and collected YOUR applause in front of your own eyes?! Oh, I need names! And tell me something: does your boss know you did the work, or have they all been playing you? Because we need to be strategic here, darling. No shouting in meetings. We gather evidence, secure our receipts, and make sure the right people know exactly who did what. But first, tell Aunty everything!",
+    "needsReview": true
+  },
+  {
+    "id": "work-uncle-credit",
+    "character": "no-mercy-uncle",
+    "topic": "work-and-career",
+    "priority": 2,
+    "keywords": ["taking credit for my work", "took credit for my work", "takes credit for my work", "taken credit for my work", "credit for my work", "stole credit for my work"],
+    "text": "And you sat there quietly? Interesting. Don't turn this into a shouting match. Keep the original files, emails and timestamps. Next time, speak up calmly: \"I'm glad this work is getting attention. To clarify, I led that piece, and here's how we approached it.\" If it happens again, address it with your manager. Stop expecting people to give you credit out of the goodness of their hearts.",
+    "needsReview": true
+  },
+  {
+    "id": "work-hype-credit",
+    "character": "hype-man",
+    "topic": "work-and-career",
+    "priority": 2,
+    "keywords": ["taking credit for my work", "took credit for my work", "takes credit for my work", "taken credit for my work", "credit for my work", "stole credit for my work"],
+    "text": "BROOOOO! 😭😭 THEY STOLE YOUR WORK AND ACCEPTED THE PRAISE?! THIS AUDACITY HAS A FULL-TIME JOB! Listen, we're not crashing out; we're coming with RECEIPTS! Save every draft, email, and message. Then next time, you step in smooth as anything: \"Yes, that's the project I developed. Let me walk everyone through the thinking behind it.\" BOOM! Your work, your voice, your moment! WE DO NOT LET PEOPLE BUILD CAREERS ON OUR BACKS!",
+    "needsReview": true
+  },
+  {
+    "id": "work-sister-credit",
+    "character": "crazy-little-sister",
+    "topic": "work-and-career",
+    "priority": 2,
+    "keywords": ["taking credit for my work", "took credit for my work", "takes credit for my work", "taken credit for my work", "credit for my work", "stole credit for my work"],
+    "text": "BABE. WHAT IN THE CORPORATE THEFT IS THIS?! 😭 Give me their name. No, don't give me their name—I have plans, and apparently HR frowns on most of them. 😂 But seriously, do you have the emails and original files? Because we're keeping receipts. Next time, you say, \"Just to add some context, I actually worked on that deliverable...\" Sweet smile. Direct eye contact. Let them sweat. And if this is a pattern? We make sure your boss knows exactly what's going on.",
+    "needsReview": true
+  },
+  {
+    "id": "chores-aunty-fed",
+    "character": "nosey-aunty",
+    "topic": "everyday-life",
+    "priority": 2,
+    "keywords": ["about the dishes", "washing the dishes", "wash the dishes", "doing the dishes", "the dishes again", "household chores", "share the chores", "never does the dishes", "argument about the dishes", "about the chores", "leaving the dishes", "leaves the dishes", "leave the dishes", "the washing up"],
+    "text": "The dishes. Whose plates, and what is his name? Don't tell me it isn't deep. I knew a gorgeous man who would sit there in a nice watch and watch me clear the table. I did not keep him. Is this that kind, or a new one? And be honest, my dear. Are you also stepping over bowls and then acting shocked? If you cooked, he washes. That is the policy. If you are both guilty, say so before you waste my evening.",
+    "needsReview": true
+  },
+  {
+    "id": "chores-aunty-score",
+    "character": "nosey-aunty",
+    "topic": "everyday-life",
+    "priority": 2,
+    "keywords": ["about the dishes", "washing the dishes", "wash the dishes", "doing the dishes", "the dishes again", "household chores", "share the chores", "never does the dishes", "argument about the dishes", "about the chores", "leaving the dishes", "leaves the dishes", "leave the dishes", "the washing up"],
+    "text": "Don't come and tell me the whole relationship is finished because of a bowl. Maybe they are careless. Maybe you are keeping a silent score and calling it standards. Both can be true. I have watched this in families for years. Pick one chore each and trade the one you hate. Then tell me, honestly, whether this fight is about washing up or about feeling looked after. Those are different conversations.",
+    "needsReview": true
+  },
+  {
+    "id": "chores-uncle-list",
+    "character": "no-mercy-uncle",
+    "topic": "everyday-life",
+    "priority": 2,
+    "keywords": ["about the dishes", "washing the dishes", "wash the dishes", "doing the dishes", "the dishes again", "household chores", "share the chores", "never does the dishes", "argument about the dishes", "about the chores", "leaving the dishes", "leaves the dishes", "leave the dishes", "the washing up"],
+    "text": "Plates. Who cooked? If you did, they wash. Say it once. If you are both dirty and you are just louder, sit down. Do the ones in the sink tonight. The speech can wait. It is not that interesting.",
+    "needsReview": true
+  },
+  {
+    "id": "chores-uncle-repeat",
+    "character": "no-mercy-uncle",
+    "topic": "everyday-life",
+    "priority": 2,
+    "keywords": ["about the dishes", "washing the dishes", "wash the dishes", "doing the dishes", "the dishes again", "household chores", "share the chores", "never does the dishes", "argument about the dishes", "about the chores", "leaving the dishes", "leaves the dishes", "leave the dishes", "the washing up"],
+    "text": "You have had this fight enough times to stop treating it like a surprise. Write the chores down, put names next to them, and look at the list when somebody slips. No private scoreboard. If one of you is ill, away, or buried at work, the list changes for that week and then it changes back. Compromise is adjusting the list. It is not one person swallowing the same resentment until a fork becomes the last straw.",
+    "needsReview": true
+  },
+  {
+    "id": "chores-hype-nights",
+    "character": "hype-man",
+    "topic": "everyday-life",
+    "priority": 2,
+    "keywords": ["about the dishes", "washing the dishes", "wash the dishes", "doing the dishes", "the dishes again", "household chores", "share the chores", "never does the dishes", "argument about the dishes", "about the chores", "leaving the dishes", "leaves the dishes", "leave the dishes", "the washing up"],
+    "text": "No. They ate and then watched you wash? I'm hot. You're not staff. Tell them, you ate, you wash, and stop decorating it. Unless. Did you leave yours yesterday and now you're shocked they mentioned it? I'll ride for you and I'll also snitch. Which is it. Tell me before I start a speech I have to take back.",
+    "needsReview": true
+  },
+  {
+    "id": "chores-hype-trade",
+    "character": "hype-man",
+    "topic": "everyday-life",
+    "priority": 2,
+    "keywords": ["about the dishes", "washing the dishes", "wash the dishes", "doing the dishes", "the dishes again", "household chores", "share the chores", "never does the dishes", "argument about the dishes", "about the chores", "leaving the dishes", "leaves the dishes", "leave the dishes", "the washing up"],
+    "text": "Maybe you are right about the sink. You can still be hard to live with if every plate arrives with a lecture. Tell them what you need this week, ask what they need, and trade one job so nobody is stuck with the one they dread. That is compromise with a spine. I am on your side, and I am also on the side where the kitchen stops being a scoreboard. You can hold both.",
+    "needsReview": true
+  },
+  {
+    "id": "chores-sister-rota",
+    "character": "crazy-little-sister",
+    "topic": "everyday-life",
+    "priority": 2,
+    "keywords": ["about the dishes", "washing the dishes", "wash the dishes", "doing the dishes", "the dishes again", "household chores", "share the chores", "never does the dishes", "argument about the dishes", "about the chores", "leaving the dishes", "leaves the dishes", "leave the dishes", "the washing up"],
+    "text": "WTF. Two grown adults beefing over a plate? You're silly. I'm not even joking, who cooked, because that changes everything. If they used it and sat there watching you scrub, send me the location. I'll tell them how to behave. I'm joking. Mostly. If you're both as bad as each other, make a rota before I come over and separate you like children. And don't lie about whose crust is in the sink.",
+    "needsReview": true
+  },
+  {
+    "id": "chores-sister-evidence",
+    "character": "crazy-little-sister",
+    "topic": "everyday-life",
+    "priority": 2,
+    "keywords": ["about the dishes", "washing the dishes", "wash the dishes", "doing the dishes", "the dishes again", "household chores", "share the chores", "never does the dishes", "argument about the dishes", "about the chores", "leaving the dishes", "leaves the dishes", "leave the dishes", "the washing up"],
+    "text": "If you are leaving the evidence in the sink and then acting shocked that somebody minds, that is embarrassing, and I say it because you are mine. If they are leaving it all on you, that is disrespect with bubbles on it, and I am not on their side. Either way, stop the psychic arguing. Point at the week, split the jobs, and check in on Sunday like adults who own spoons. I'll help you word the ask. I will not help you perform a tragedy.",
+    "needsReview": true
+  },
+  {
+    "id": "debt-aunty-ask",
+    "character": "nosey-aunty",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["won't pay me back", "wont pay me back", "hasn't paid me back", "has not paid me back", "never pays me back", "didn't pay me back", "did not pay me back", "friend won't pay me back", "friend wont pay me back", "owes me money", "owe me money", "pay me back"],
+    "text": "A friend who never pays you back is still a friend until you have actually asked, properly, like a person and not like a hint. How much is it, and how long has it sat there? Say the number out loud, kindly, with a date you can both live with. If they are struggling, a smaller plan is mercy. If they are spending in front of you while they owe you, that is a different fact, and I want that detail too.",
+    "needsReview": true
+  },
+  {
+    "id": "debt-aunty-sulk",
+    "character": "nosey-aunty",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["won't pay me back", "wont pay me back", "hasn't paid me back", "has not paid me back", "never pays me back", "didn't pay me back", "did not pay me back", "friend won't pay me back", "friend wont pay me back", "owes me money", "owe me money", "pay me back"],
+    "text": "Sulking is not an invoice, my love. They may be thoughtless. You may be frightened of sounding mean, so you smile and get poorer. Those are not the same. Send one clear message: the amount, and when you need it. Warm, not a trial. If they dodge, you can love them and still stop lending. Ending the whole friendship on the first awkward day is not required. Leaving your pocket open forever is not loyalty either.",
+    "needsReview": true
+  },
+  {
+    "id": "debt-uncle-date",
+    "character": "no-mercy-uncle",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["won't pay me back", "wont pay me back", "hasn't paid me back", "has not paid me back", "never pays me back", "didn't pay me back", "did not pay me back", "friend won't pay me back", "friend wont pay me back", "owes me money", "owe me money", "pay me back"],
+    "text": "Name the amount and name a date. One calm ask. Then stop narrating it to everybody except them. If they agree, believe the plan until the date passes. If they dodge, you have your answer about more loans, not necessarily about the whole friendship. Awkward is the price of being clear. Carrying it in silence is more expensive. Do the ask this week, in writing, so nobody gets to remember a different number.",
+    "needsReview": true
+  },
+  {
+    "id": "debt-uncle-next",
+    "character": "no-mercy-uncle",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["won't pay me back", "wont pay me back", "hasn't paid me back", "has not paid me back", "never pays me back", "didn't pay me back", "did not pay me back", "friend won't pay me back", "friend wont pay me back", "owes me money", "owe me money", "pay me back"],
+    "text": "Do not lend the next amount while the first one is still a ghost. That is how a favour becomes a habit you resent. Tell them the old total is still open, and new money waits until it moves. If they pay something, acknowledge it without a speech. If they cannot pay now, a smaller date is allowed. What is not allowed is you funding the friendship and calling the bitterness a surprise. Close the tab or reset it. Pick one.",
+    "needsReview": true
+  },
+  {
+    "id": "debt-hype-number",
+    "character": "hype-man",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["won't pay me back", "wont pay me back", "hasn't paid me back", "has not paid me back", "never pays me back", "didn't pay me back", "did not pay me back", "friend won't pay me back", "friend wont pay me back", "owes me money", "owe me money", "pay me back"],
+    "text": "Asking for your money is not greed. It is you respecting both of you. Send a message you could say with a smile: the amount, a date, and the fact you still like them. I know it feels clumsy. Do it anyway. A real friend can survive a number. You should not have to become a banker in your own head every time you see their name. Ask once, cleanly, and then let your shoulders drop.",
+    "needsReview": true
+  },
+  {
+    "id": "debt-hype-wallet",
+    "character": "hype-man",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["won't pay me back", "wont pay me back", "hasn't paid me back", "has not paid me back", "never pays me back", "didn't pay me back", "did not pay me back", "friend won't pay me back", "friend wont pay me back", "owes me money", "owe me money", "pay me back"],
+    "text": "If they have dodged you twice, the cheer is for your boundary, not for a showdown. You can keep the person and close the wallet. Tell them, lightly and clearly, that you cannot lend again until this one is settled. No courtroom. No group announcement. You are allowed to want your money and still hope they are all right. Those two feelings can sit in the same sentence. Use that sentence.",
+    "needsReview": true
+  },
+  {
+    "id": "debt-sister-brunch",
+    "character": "crazy-little-sister",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["won't pay me back", "wont pay me back", "hasn't paid me back", "has not paid me back", "never pays me back", "didn't pay me back", "did not pay me back", "friend won't pay me back", "friend wont pay me back", "owes me money", "owe me money", "pay me back"],
+    "text": "Your friend has your money and the confidence of somebody who thinks purses are theoretical. I would like to invoice them in a font that smells like trouble, and then we will not, because you still like them. Text the amount, the date, and one human line. If they are broke, make a small plan. If they are at brunch on your cash, I am on your side and the brunch is cancelled in my heart. Ask. Don't haunt.",
+    "needsReview": true
+  },
+  {
+    "id": "debt-sister-audit",
+    "character": "crazy-little-sister",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["won't pay me back", "wont pay me back", "hasn't paid me back", "has not paid me back", "never pays me back", "didn't pay me back", "did not pay me back", "friend won't pay me back", "friend wont pay me back", "owes me money", "owe me money", "pay me back"],
+    "text": "If this is a tiny sum and you are auditing the whole friendship like a tax office, I need you to hear yourself. Say the number or let it go. If it is real money and they keep forgetting while living softly, that is you being used, and I don't co-sign that. One clear ask. Then no more loans until it moves. I will help you press send. I will not help you collect interest with insults.",
+    "needsReview": true
+  },
+  {
+    "id": "jealous-aunty-sting",
+    "character": "nosey-aunty",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["jealous of my friend", "jealous of a friend", "jealous of their success", "jealous of her success", "jealous of his success", "envious of my friend", "envy my friend's success", "friend's success makes me"],
+    "text": "Jealousy is a nosy feeling, and I respect nosy. What made your stomach drop: the job, the love, the ease, or the way people look at them? Tell me that, not a speech about how happy you are for them. You can love your friend and still want a life that fits you. Don't punish them for glowing. Use the sting to name the thing you have been postponing, and then tell me what that thing is.",
+    "needsReview": true
+  },
+  {
+    "id": "jealous-aunty-chat",
+    "character": "nosey-aunty",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["jealous of my friend", "jealous of a friend", "jealous of their success", "jealous of her success", "jealous of his success", "envious of my friend", "envy my friend's success", "friend's success makes me"],
+    "text": "Don't take this ugly little feeling into the group chat, my dear. Bring it here. Little comments will injure a friendship just to soothe a bruise, and I did not sit through decades of family stories for that. Congratulate them properly, once. Then look at your own week and choose one move toward the thing you envy. Envy can be a map. It becomes poison only when you aim it at their good news.",
+    "needsReview": true
+  },
+  {
+    "id": "jealous-uncle-data",
+    "character": "no-mercy-uncle",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["jealous of my friend", "jealous of a friend", "jealous of their success", "jealous of her success", "jealous of his success", "envious of my friend", "envy my friend's success", "friend's success makes me"],
+    "text": "Jealousy is information. It is not a personality, and it is not their fault. Name the exact thing you want more of, then do one practical thing toward it this month. You can congratulate them without auditioning for sainthood. A short, true well done is enough. Undermining them will not move your life a centimetre. The feeling can sit there while you act. Acting is the part I care about.",
+    "needsReview": true
+  },
+  {
+    "id": "jealous-uncle-ahead",
+    "character": "no-mercy-uncle",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["jealous of my friend", "jealous of a friend", "jealous of their success", "jealous of her success", "jealous of his success", "envious of my friend", "envy my friend's success", "friend's success makes me"],
+    "text": "Check whether you only relax when you are ahead of them. If their good news ruins your afternoon, the work is yours, not a campaign against their luck. Say the congratulations anyway. Then be honest about the goal their news uncovered. If the friendship has turned into a scoreboard, step back from the scoreboard, not from your manners. You are allowed to want more. You are not allowed to shrink their win so you can breathe.",
+    "needsReview": true
+  },
+  {
+    "id": "jealous-hype-lane",
+    "character": "hype-man",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["jealous of my friend", "jealous of a friend", "jealous of their success", "jealous of her success", "jealous of his success", "envious of my friend", "envy my friend's success", "friend's success makes me"],
+    "text": "Their win did not shrink you. Hear that without the fake smile that hurts your face. Be glad for them in one real sentence, then come back to your own lane and tell me what their news reminded you that you want. We will pick a specific step, not a vow to become a different species. You can clap and still be hungry. Hungry looks good on you when it is not aimed at their plate.",
+    "needsReview": true
+  },
+  {
+    "id": "jealous-hype-awake",
+    "character": "hype-man",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["jealous of my friend", "jealous of a friend", "jealous of their success", "jealous of her success", "jealous of his success", "envious of my friend", "envy my friend's success", "friend's success makes me"],
+    "text": "Jealousy means something in you is awake. Don't insult your friend to put it back to sleep, and don't insult yourself for feeling it. Send the congratulations today. Tomorrow, write the version of that success that would actually belong to you, because copying their life is a boring tragedy. I am glad you admitted the feeling. Now we use it. One application, one conversation, or one hour of practice. Then tell me which you chose.",
+    "needsReview": true
+  },
+  {
+    "id": "jealous-sister-pie",
+    "character": "crazy-little-sister",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["jealous of my friend", "jealous of a friend", "jealous of their success", "jealous of her success", "jealous of his success", "envious of my friend", "envy my friend's success", "friend's success makes me"],
+    "text": "You saw their good news and your brain filed a complaint. That is human, not a hex. What I won't bless is you chipping at them so your stomach feels quieter. Their success is not a pie that owed you a slice. If the feeling is saying you want something, name the something. If it is saying you like them less when they shine, that part needs adult supervision. Clap, then take your own strange little next step.",
+    "needsReview": true
+  },
+  {
+    "id": "jealous-sister-shine",
+    "character": "crazy-little-sister",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["jealous of my friend", "jealous of a friend", "jealous of their success", "jealous of her success", "jealous of his success", "envious of my friend", "envy my friend's success", "friend's success makes me"],
+    "text": "If they are rubbing your face in it, I am on your side and we can leave the performance early. If they are just living and you are boiling, that is a different case. Don't start a rumour, a joke with a knife in it, or a silent feud. Tell me which one this is. Either way you still get to want a bigger life. You don't get to become the person who only feels tall in a smaller room. I love you. Behave.",
+    "needsReview": true
+  },
+  {
+    "id": "boss-aunty-chance",
+    "character": "nosey-aunty",
+    "topic": "work-and-career",
+    "priority": 2,
+    "keywords": ["boss doesn't appreciate", "boss does not appreciate", "boss doesnt appreciate", "boss doesn't notice", "boss does not notice", "boss never appreciates", "boss takes me for granted", "unappreciative boss", "boss doesn't value", "boss does not value"],
+    "text": "A boss who does not appreciate you can be blind, or you can be doing good work in complete silence and then feeling invisible. Which is it? Tell them one concrete thing you finished and what it changed, in a normal voice, not an apology. If they still cannot see you after that, we talk about whether this is a quiet season or a closed door. Don't guess. Give them one clear chance to notice, and then tell me what they did with it.",
+    "needsReview": true
+  },
+  {
+    "id": "boss-aunty-clap",
+    "character": "nosey-aunty",
+    "topic": "work-and-career",
+    "priority": 2,
+    "keywords": ["boss doesn't appreciate", "boss does not appreciate", "boss doesnt appreciate", "boss doesn't notice", "boss does not notice", "boss never appreciates", "boss takes me for granted", "unappreciative boss", "boss doesn't value", "boss does not value"],
+    "text": "Some bosses will never clap, my dear, and exhausting yourself will not invent a personality they do not have. Have you asked to be seen, or have you only hoped they are psychic? If you have asked and nothing moves, look at your options with a full stomach: a conversation about what good work looks like, or a plan to leave. Staying and seething is how people get bitter and still underpaid. Tell me which way you are leaning.",
+    "needsReview": true
+  },
+  {
+    "id": "boss-uncle-result",
+    "character": "no-mercy-uncle",
+    "topic": "work-and-career",
+    "priority": 2,
+    "keywords": ["boss doesn't appreciate", "boss does not appreciate", "boss doesnt appreciate", "boss doesn't notice", "boss does not notice", "boss never appreciates", "boss takes me for granted", "unappreciative boss", "boss doesn't value", "boss does not value"],
+    "text": "Do not work harder into a void and call it patience. Put one result in front of them, in writing or in a meeting, and say what you want recognised. Then watch what they do, not what you wish they meant. If they adjust, good. If they brush you off, you have data. The next decision is about the role, not about becoming more exhausting. Appreciation is not a prize for suffering quietly.",
+    "needsReview": true
+  },
+  {
+    "id": "boss-uncle-path",
+    "character": "no-mercy-uncle",
+    "topic": "work-and-career",
+    "priority": 2,
+    "keywords": ["boss doesn't appreciate", "boss does not appreciate", "boss doesnt appreciate", "boss doesn't notice", "boss does not notice", "boss never appreciates", "boss takes me for granted", "unappreciative boss", "boss doesn't value", "boss does not value"],
+    "text": "If the job has no path and the boss has no intention of seeing you, loyalty to that wall is not a career. Write down what you have done, talk to one person who can speak for your work, and set a date to decide whether you stay. Don't announce a war. Don't shrink. A boundary here is a sentence about what you will not keep doing unpaid and unseen. Write that sentence before you say it.",
+    "needsReview": true
+  },
+  {
+    "id": "boss-hype-win",
+    "character": "hype-man",
+    "topic": "work-and-career",
+    "priority": 2,
+    "keywords": ["boss doesn't appreciate", "boss does not appreciate", "boss doesnt appreciate", "boss doesn't notice", "boss does not notice", "boss never appreciates", "boss takes me for granted", "unappreciative boss", "boss doesn't value", "boss does not value"],
+    "text": "You already did the thing. Now let them hear it without you disappearing into fog. Pick one win, say what it changed, and ask for the recognition like it is a normal part of the job, because it is. I am not telling you to applaud yourself in the corridor. I am telling you to put your name next to your result. If they still look through you, we plan what comes next with your head up, not with a spiral.",
+    "needsReview": true
+  },
+  {
+    "id": "boss-hype-room",
+    "character": "hype-man",
+    "topic": "work-and-career",
+    "priority": 2,
+    "keywords": ["boss doesn't appreciate", "boss does not appreciate", "boss doesnt appreciate", "boss doesn't notice", "boss does not notice", "boss never appreciates", "boss takes me for granted", "unappreciative boss", "boss doesn't value", "boss does not value"],
+    "text": "You can be excellent and still leave a room that will not say your name. That is not quitting on yourself. That is refusing to beg a brick wall for manners. Before you decide, give them one clean chance: the result, the impact, the ask. If the answer is nothing, we build the next room. I believe in your work. I do not believe you owe anyone endless unpaid enthusiasm. You already know the difference.",
+    "needsReview": true
+  },
+  {
+    "id": "boss-sister-kettle",
+    "character": "crazy-little-sister",
+    "topic": "work-and-career",
+    "priority": 2,
+    "keywords": ["boss doesn't appreciate", "boss does not appreciate", "boss doesnt appreciate", "boss doesn't notice", "boss does not notice", "boss never appreciates", "boss takes me for granted", "unappreciative boss", "boss doesn't value", "boss does not value"],
+    "text": "Your boss has the emotional range of a broken kettle, and you keep waiting for it to whistle. Stop pouring more work into the kettle. Write down three things you did and what they changed, then say them in a meeting or an email like a person with a spine. If they still treat you like furniture, I am on your side and we start the what-next list. You are not lazy. You are under-credited. Those are different species.",
+    "needsReview": true
+  },
+  {
+    "id": "boss-sister-raccoon",
+    "character": "crazy-little-sister",
+    "topic": "work-and-career",
+    "priority": 2,
+    "keywords": ["boss doesn't appreciate", "boss does not appreciate", "boss doesnt appreciate", "boss doesn't notice", "boss does not notice", "boss never appreciates", "boss takes me for granted", "unappreciative boss", "boss doesn't value", "boss does not value"],
+    "text": "If you want praise for work you have hidden like a raccoon hides snacks, I can't help a psychic boss. Tell them. If you have told them and they still treat your effort like office air, that is on them, and I don't like them. Keep a record, ask once more in writing, and decide what you will stop doing for free. I'll help you sound calm. I will not help you set yourself on fire for a thank-you that is not coming.",
+    "needsReview": true
+  },
+  {
+    "id": "spend-aunty-parcel",
+    "character": "nosey-aunty",
+    "topic": "money",
+    "priority": 2,
+    "keywords": ["spending too much", "spent too much", "spending too much money", "spent too much money", "can't stop spending", "cannot stop spending", "cant stop spending", "overspending", "blew too much money", "blowing too much money"],
+    "text": "Come here. What did you buy, and who were you trying to feel like when you bought it? I am not shaming you. People spend when they are lonely, celebrated, or trying to look unbothered. Look at this week's number, say it out loud, and choose one repeat purchase you can pause. Tell me the feeling under the parcel. We will keep one pleasure. We will not let the rest of them drive the month.",
+    "needsReview": true
+  },
+  {
+    "id": "spend-aunty-secret",
+    "character": "nosey-aunty",
+    "topic": "money",
+    "priority": 2,
+    "keywords": ["spending too much", "spent too much", "spending too much money", "spent too much money", "can't stop spending", "cannot stop spending", "cant stop spending", "overspending", "blew too much money", "blowing too much money"],
+    "text": "If the spending is secret, the secret is costing more than the items. Tell one person the real figure. Me, if you want. Then pick a number you can live with for the next fortnight and put it where you will see it before you pay. You are not foolish for wanting nice things. You are only in trouble if the wanting spends money you already promised to rent, food, or a debt. Start with that promise.",
+    "needsReview": true
+  },
+  {
+    "id": "spend-uncle-pause",
+    "character": "no-mercy-uncle",
+    "topic": "money",
+    "priority": 2,
+    "keywords": ["spending too much", "spent too much", "spending too much money", "spent too much money", "can't stop spending", "cannot stop spending", "cant stop spending", "overspending", "blew too much money", "blowing too much money"],
+    "text": "Open last month and circle the repeats, not the one-off joy. Pause those repeats for two weeks. That is the useful part. You are not a disaster because you like things. You need a pause on the ones that show up every Friday. If a bill is already late, pay that before the next comfort. Comfort can wait an afternoon. Late fees do not care about your mood.",
+    "needsReview": true
+  },
+  {
+    "id": "spend-uncle-list",
+    "character": "no-mercy-uncle",
+    "topic": "money",
+    "priority": 2,
+    "keywords": ["spending too much", "spent too much", "spending too much money", "spent too much money", "can't stop spending", "cannot stop spending", "cant stop spending", "overspending", "blew too much money", "blowing too much money"],
+    "text": "If the balances are growing, the next step is a list, not a confession. Write what you owe, the minimums, and the one you can clear first. Then stop adding to the most expensive one. No shame, and no speech about coffee. A number on paper is kinder than a fog of dread. Do the list tonight. Tomorrow you pay the ugly one, even if the payment is small. Small and real beats dramatic and imaginary.",
+    "needsReview": true
+  },
+  {
+    "id": "spend-hype-receipt",
+    "character": "hype-man",
+    "topic": "money",
+    "priority": 2,
+    "keywords": ["spending too much", "spent too much", "spending too much money", "spent too much money", "can't stop spending", "cannot stop spending", "cant stop spending", "overspending", "blew too much money", "blowing too much money"],
+    "text": "The purchase was a feeling wearing a receipt. I get it. Keep one joy on purpose, and delay the next one by a day so the feeling has to introduce itself. I am proud of you for looking at this instead of hiding the banking app. Pick a weekly number that still lets you live, give it a name that is not miserable, and defend it the way you defend people you love. That includes you.",
+    "needsReview": true
+  },
+  {
+    "id": "spend-hype-edge",
+    "character": "hype-man",
+    "topic": "money",
+    "priority": 2,
+    "keywords": ["spending too much", "spent too much", "spending too much money", "spent too much money", "can't stop spending", "cannot stop spending", "cant stop spending", "overspending", "blew too much money", "blowing too much money"],
+    "text": "We are not writing a villain story because you spent money. We are giving the fun a name and an edge. Inside the edge, enjoy it. Past the edge, the card waits until tomorrow. Tell me one thing you bought that was worth it and one that was just noise. Keep the one that was worth it. Let the noise cool off. You can like nice things and still know the number. That is a steered life, not a smaller one.",
+    "needsReview": true
+  },
+  {
+    "id": "spend-sister-freeze",
+    "character": "crazy-little-sister",
+    "topic": "money",
+    "priority": 2,
+    "keywords": ["spending too much", "spent too much", "spending too much money", "spent too much money", "can't stop spending", "cannot stop spending", "cant stop spending", "overspending", "blew too much money", "blowing too much money"],
+    "text": "The parcels are arriving like you run a tiny confused shop. I would roast you harder if spending were not sometimes loneliness in a checkout screen. Freeze the non-essentials for two days. Not forever. Two days. In that time, write what you actually owe the serious things: rent, food, the debt with teeth. One pleasure can stay. The rest can sit in the basket and think about their behaviour. I'm on your side, not the overdraft's.",
+    "needsReview": true
+  },
+  {
+    "id": "spend-sister-mayor",
+    "character": "crazy-little-sister",
+    "topic": "money",
+    "priority": 2,
+    "keywords": ["spending too much", "spent too much", "spending too much money", "spent too much money", "can't stop spending", "cannot stop spending", "cant stop spending", "overspending", "blew too much money", "blowing too much money"],
+    "text": "If you are broke and still playing host like a mayor, that is sweet, and it is also how you end up angry at people you fed. Tell them you are in a quiet month, split the bill, and keep your seat at the table. If the spending is only yours and it is swallowing you, same medicine: one pause, one list, no public flogging. I love you. Your card does not get to be the main character this week.",
+    "needsReview": true
+  },
+  {
+    "id": "gossip-aunty-words",
+    "character": "nosey-aunty",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["gossiping about me", "gossip about me", "spreading rumours about me", "spreading rumors about me", "talking about me behind", "heard gossip about me", "people are gossiping about me"],
+    "text": "Who told you, and do they enjoy a story a little too much? I want the exact words, not the version that grew legs on the way to your phone. Some talk is smoke. Some talk can reach your job or your home. If it is smoke, don't give it a parade. If it can cost you something real, speak to the one person who matters, calmly, and ask what they heard. Not the whole street. The street loves a sequel.",
+    "needsReview": true
+  },
+  {
+    "id": "gossip-aunty-crowd",
+    "character": "nosey-aunty",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["gossiping about me", "gossip about me", "spreading rumours about me", "spreading rumors about me", "talking about me behind", "heard gossip about me", "people are gossiping about me"],
+    "text": "Don't confront a crowd, my love. Crowds get braver and less honest. If the thing being said is false and it can hurt your work or your name at home, you tell one sensible person the truth, once. If it is petty and bored, you let it starve. Tell me which kind this is, and who benefits if you react in public. I have watched gossip feed on a reaction more than it ever fed on the original sentence.",
+    "needsReview": true
+  },
+  {
+    "id": "gossip-uncle-check",
+    "character": "no-mercy-uncle",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["gossiping about me", "gossip about me", "spreading rumours about me", "spreading rumors about me", "talking about me behind", "heard gossip about me", "people are gossiping about me"],
+    "text": "Separate what you heard from what you can check. One question to the person who claims they know, or silence. Those are the options. Don't build a case out of a forwarded voice note. If the rumour can affect your job or your safety at home, you deal with the fact, not the chorus. If it cannot, you have permission to be bored. Boredom is an excellent response to people with too much time and your name in their mouth.",
+    "needsReview": true
+  },
+  {
+    "id": "gossip-uncle-sentence",
+    "character": "no-mercy-uncle",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["gossiping about me", "gossip about me", "spreading rumours about me", "spreading rumors about me", "talking about me behind", "heard gossip about me", "people are gossiping about me"],
+    "text": "Ask whether this relationship is worth one direct sentence. If yes, say it to the person involved, not to an audience: you heard this, is it true? Then stop. If they lie, you have learned something about them. If the talk is small, feeding it is how you join the mess you hate. You don't have to win the room. You have to decide whether the room deserves your evening. Most rooms do not.",
+    "needsReview": true
+  },
+  {
+    "id": "gossip-hype-mouth",
+    "character": "hype-man",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["gossiping about me", "gossip about me", "spreading rumours about me", "spreading rumors about me", "talking about me behind", "heard gossip about me", "people are gossiping about me"],
+    "text": "Your name in somebody's mouth is not a verdict. Breathe. Decide whether this needs a conversation or a closed door. If it is a lie with consequences, you and one person you trust correct it once, cleanly, and then you go live your actual life. If it is noise, we do not give noise a spotlight and call it dignity. I am on your side. Your side looks better when you choose the response.",
+    "needsReview": true
+  },
+  {
+    "id": "gossip-hype-whisper",
+    "character": "hype-man",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["gossiping about me", "gossip about me", "spreading rumours about me", "spreading rumors about me", "talking about me behind", "heard gossip about me", "people are gossiping about me"],
+    "text": "Some people are bored, some are unkind, and some half-heard a thing and gave it a costume. You get to ask one honest question if the story matters. You also get to let a limp rumour die without a speech. Tell me what they said and what it could actually change. We will match the response to the damage, not to the adrenaline. You don't owe every whisper a performance.",
+    "needsReview": true
+  },
+  {
+    "id": "gossip-sister-file",
+    "character": "crazy-little-sister",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["gossiping about me", "gossip about me", "spreading rumours about me", "spreading rumors about me", "talking about me behind", "heard gossip about me", "people are gossiping about me"],
+    "text": "The unofficial detectives who do not exist have opened a file with your name on it. Cute. I want the quote, not the remix. If somebody is spreading something cruel, I am already on your side: ask the source one calm question, then correct the one person who can actually hurt you. If it is bored gossip with no teeth, let it die like a houseplant nobody watered. Don't feed it a reaction. A reaction is its favourite snack.",
+    "needsReview": true
+  },
+  {
+    "id": "gossip-sister-choir",
+    "character": "crazy-little-sister",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["gossiping about me", "gossip about me", "spreading rumours about me", "spreading rumors about me", "talking about me behind", "heard gossip about me", "people are gossiping about me"],
+    "text": "If you are also passing the story along just to check, congratulations, you joined the choir. Stop. If they are lying about you in a way that costs you work, love, or peace, different energy: one factual correction, no scavenger hunt, no revenge novel. I will help you write the sentence. I will not help you become the loudest person in a mess. You're allowed to be furious. You're not allowed to hand them a sequel.",
+    "needsReview": true
+  },
+  {
+    "id": "dating-aunty-tuesday",
+    "character": "nosey-aunty",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["not sure if they like me", "not sure they like me", "don't know if they like me", "do not know if they like me", "dont know if they like me", "unsure if they're interested", "unsure if they are interested", "are they actually interested", "don't know if they're interested", "do they even like me", "not sure they're interested", "not sure they are interested", "genuinely interested in me", "can't tell if they're genuinely interested", "cant tell if they're genuinely interested", "can't tell if they are genuinely interested", "interested in me or wasting", "giving me mixed signals", "someone i'm dating", "someone im dating"],
+    "text": "You like someone and I am getting a riddle? Name. Now. Are they attractive? Don't say 'they're nice,' that is not what I asked. What do they do? Have I met their mother? Do they have sense? Do they have a big... mm. You know. We are adults. Since when? Wait. Is this the December one? I remember everything, my dear. You were going to leave that alone. If they are only sweet when it is easy, that is not a mystery. Ask them if they want you. If you are inventing a person out of three texts, I will hear it. Start with the name.",
+    "needsReview": true
+  },
+  {
+    "id": "dating-aunty-quiet",
+    "character": "nosey-aunty",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["not sure if they like me", "not sure they like me", "don't know if they like me", "do not know if they like me", "dont know if they like me", "unsure if they're interested", "unsure if they are interested", "are they actually interested", "don't know if they're interested", "do they even like me", "not sure they're interested", "not sure they are interested", "genuinely interested in me", "can't tell if they're genuinely interested", "cant tell if they're genuinely interested", "can't tell if they are genuinely interested", "interested in me or wasting", "giving me mixed signals", "someone i'm dating", "someone im dating"],
+    "text": "Sometimes the uncertainty is theirs. Sometimes you go quiet and call it a mystery. Which one is this? If you want them, offer a specific plan. If you are unsure, say that too, kindly. Watch whether their effort matches their sweet messages over two ordinary weeks. Consistency is the detail I trust. Don't interrogate their soul too early, and don't ignore a pattern that has already introduced itself. Tell me what they do.",
+    "needsReview": true
+  },
+  {
+    "id": "dating-uncle-plans",
+    "character": "no-mercy-uncle",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["not sure if they like me", "not sure they like me", "don't know if they like me", "do not know if they like me", "dont know if they like me", "unsure if they're interested", "unsure if they are interested", "are they actually interested", "don't know if they're interested", "do they even like me", "not sure they're interested", "not sure they are interested", "genuinely interested in me", "can't tell if they're genuinely interested", "cant tell if they're genuinely interested", "can't tell if they are genuinely interested", "interested in me or wasting", "giving me mixed signals", "someone i'm dating", "someone im dating"],
+    "text": "You already know. Wanting you is a plan they keep. Wasting you is you doing all the wondering. Ask once. If they slip, stop. If there was nothing there and you are lonely, say that to yourself before you say it to them. I want you looked after. I am not joining the fantasy.",
+    "needsReview": true
+  },
+  {
+    "id": "dating-uncle-messages",
+    "character": "no-mercy-uncle",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["not sure if they like me", "not sure they like me", "don't know if they like me", "do not know if they like me", "dont know if they like me", "unsure if they're interested", "unsure if they are interested", "are they actually interested", "don't know if they're interested", "do they even like me", "not sure they're interested", "not sure they are interested", "genuinely interested in me", "can't tell if they're genuinely interested", "cant tell if they're genuinely interested", "can't tell if they are genuinely interested", "interested in me or wasting", "giving me mixed signals", "someone i'm dating", "someone im dating"],
+    "text": "If you are inventing a relationship from three warm messages, slow down and ask for an actual plan. If they keep the plans, stop cross-examining a good thing until it gets tired. Both mistakes are common. Pick which one you are in. Then either make the ask, or relax and let a consistent person be consistent. Clarity now is kinder than a month of detective work you could have replaced with a question.",
+    "needsReview": true
+  },
+  {
+    "id": "dating-hype-weather",
+    "character": "hype-man",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["not sure if they like me", "not sure they like me", "don't know if they like me", "do not know if they like me", "dont know if they like me", "unsure if they're interested", "unsure if they are interested", "are they actually interested", "don't know if they're interested", "do they even like me", "not sure they're interested", "not sure they are interested", "genuinely interested in me", "can't tell if they're genuinely interested", "cant tell if they're genuinely interested", "can't tell if they are genuinely interested", "interested in me or wasting", "giving me mixed signals", "someone i'm dating", "someone im dating"],
+    "text": "You like somebody and I'm hearing it like this? Rude. I'm invested, unfortunately. Last two weeks. No editing. Who texted, who made the plan, who vanished? If it was all you, they're wasting you and I take that personally. If they keep turning up and you've turned it into a conspiracy, breathe. Some people are just into you. Ask them tonight. Call me first. I will be annoying and I will be right.",
+    "needsReview": true
+  },
+  {
+    "id": "dating-hype-effort",
+    "character": "hype-man",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["not sure if they like me", "not sure they like me", "don't know if they like me", "do not know if they like me", "dont know if they like me", "unsure if they're interested", "unsure if they are interested", "are they actually interested", "don't know if they're interested", "do they even like me", "not sure they're interested", "not sure they are interested", "genuinely interested in me", "can't tell if they're genuinely interested", "cant tell if they're genuinely interested", "can't tell if they are genuinely interested", "interested in me or wasting", "giving me mixed signals", "someone i'm dating", "someone im dating"],
+    "text": "Mixed signals are exhausting, and you still get to name what you want. Tell them the kind of effort that would make you feel sure. One example, not a test with trick doors. Then watch whether they move toward it. People can be shy and still be clear. People can be charming and still be absent. You are looking for the one who does both the feeling and the follow-through. Give them a chance to show you which they are.",
+    "needsReview": true
+  },
+  {
+    "id": "dating-sister-calendar",
+    "character": "crazy-little-sister",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["not sure if they like me", "not sure they like me", "don't know if they like me", "do not know if they like me", "dont know if they like me", "unsure if they're interested", "unsure if they are interested", "are they actually interested", "don't know if they're interested", "do they even like me", "not sure they're interested", "not sure they are interested", "genuinely interested in me", "can't tell if they're genuinely interested", "cant tell if they're genuinely interested", "can't tell if they are genuinely interested", "interested in me or wasting", "giving me mixed signals", "someone i'm dating", "someone im dating"],
+    "text": "You've been studying their texts like homework and the answer already annoys you. Do they like you, or do they like you hovering? If they're half in, that's rude, and I nearly said I'd pull up, which would ruin your life, so I won't. Ask if they're in. Then believe them. The 1am remix is not evidence. And if you're the one disappearing and calling it mixed signals, that's you. Want them or leave them alone.",
+    "needsReview": true
+  },
+  {
+    "id": "dating-sister-suspense",
+    "character": "crazy-little-sister",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["not sure if they like me", "not sure they like me", "don't know if they like me", "do not know if they like me", "dont know if they like me", "unsure if they're interested", "unsure if they are interested", "are they actually interested", "don't know if they're interested", "do they even like me", "not sure they're interested", "not sure they are interested", "genuinely interested in me", "can't tell if they're genuinely interested", "cant tell if they're genuinely interested", "can't tell if they are genuinely interested", "interested in me or wasting", "giving me mixed signals", "someone i'm dating", "someone im dating"],
+    "text": "If you are also going quiet and calling it a vibe, they are not the only suspense show. Say what you want, or stop auditioning them for a relationship you won't name. If they are kind in messages and gone in real life, believe the real life. I am on your side when you step back. Nobody has to be a villain. Some people are just not moving toward you. You deserve somebody whose interest does not need a detective and a group chat.",
+    "needsReview": true
+  }
+,
+  {
+    "id": "friend-slow-fade-aunty",
+    "character": "nosey-aunty",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["friend distant", "dry replies", "acting funny", "slow fade", "friend is distant", "friend has gone quiet", "acting distant", "pulling away", "dry texts"],
+    "text": "your friend has gone from proper conversations to replies that look like they were typed by a parking meter",
+    "needsReview": true
+  },
+  {
+    "id": "friend-slow-fade-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["friend distant", "dry replies", "acting funny", "slow fade", "friend is distant", "friend has gone quiet", "acting distant", "pulling away", "dry texts"],
+    "text": "Ask whether something changed before you declare the friendship deceased. One missed call is life; a repeated pattern is information.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-slow-fade-hype",
+    "character": "hype-man",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["friend distant", "dry replies", "acting funny", "slow fade", "friend is distant", "friend has gone quiet", "acting distant", "pulling away", "dry texts"],
+    "text": "THE FRIENDSHIP HAS ENTERED AIRPLANE MODE! Send one honest message, not seventeen detective novels. If they meet you halfway, great; if not, redirect your energy.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-slow-fade-sister",
+    "character": "crazy-little-sister",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["friend distant", "dry replies", "acting funny", "slow fade", "friend is distant", "friend has gone quiet", "acting distant", "pulling away", "dry texts"],
+    "text": "Babe, the chat is giving customer-service replies and you're still refreshing it? Ask once. If they say nothing is wrong but keep acting like a stranger, take the hint.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-ghosted-aunty",
+    "character": "nosey-aunty",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["ghosted", "ghosting", "disappeared", "stopped replying", "hey stranger", "ghosted me", "stopped texting", "came back after ghosting"],
+    "text": "someone disappeared without explanation and has returned with “hey stranger”",
+    "needsReview": true
+  },
+  {
+    "id": "friend-ghosted-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["ghosted", "ghosting", "disappeared", "stopped replying", "hey stranger", "ghosted me", "stopped texting", "came back after ghosting"],
+    "text": "Ask what happened if you genuinely want to know, but do not let a casual greeting erase weeks of silence.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-ghosted-hype",
+    "character": "hype-man",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["ghosted", "ghosting", "disappeared", "stopped replying", "hey stranger", "ghosted me", "stopped texting", "came back after ghosting"],
+    "text": "THE RESURRECTION! They went missing and came back with TWO WORDS? Ask what happened, then decide whether their explanation deserves another chance.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-ghosted-sister",
+    "character": "crazy-little-sister",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["ghosted", "ghosting", "disappeared", "stopped replying", "hey stranger", "ghosted me", "stopped texting", "came back after ghosting"],
+    "text": "Babe, “hey stranger”?! YOU were the one who disappeared! Reply if you want, but you owe them neither instant access nor a warm welcome.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-secret-aunty",
+    "character": "nosey-aunty",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["friend shared secret", "betrayed confidence", "spilled my secret", "told my secret", "shared my secret", "betrayed my trust"],
+    "text": "Establish what was shared and whether it was careless gossip or deliberate betrayal. Trust is expensive, darling.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-secret-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["friend shared secret", "betrayed confidence", "spilled my secret", "told my secret", "shared my secret", "betrayed my trust"],
+    "text": "Tell them clearly they breached your confidence. Do not share sensitive information again until trust is rebuilt; an apology needs changed behaviour.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-secret-hype",
+    "character": "hype-man",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["friend shared secret", "betrayed confidence", "spilled my secret", "told my secret", "shared my secret", "betrayed my trust"],
+    "text": "THAT WAS PRIVATE INFORMATION, NOT A PRESS RELEASE! Tell them why it hurt. If they blame you for being upset, protect your peace and your secrets.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-secret-sister",
+    "character": "crazy-little-sister",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["friend shared secret", "betrayed confidence", "spilled my secret", "told my secret", "shared my secret", "betrayed my trust"],
+    "text": "So your secret has a distribution list now? Confront them, but don't give them fresh material while you're at it.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-competitive-aunty",
+    "character": "nosey-aunty",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["competitive friend", "competes with me", "diminishes success", "one upping friend", "always competing with me", "one-upping me", "turns it into a competition"],
+    "text": "Notice the pattern before deciding what it means. A friend should be able to celebrate you without immediately competing.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-competitive-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["competitive friend", "competes with me", "diminishes success", "one upping friend", "always competing with me", "one-upping me", "turns it into a competition"],
+    "text": "Address specific comments that undermine you. If the pattern continues, adjust how much of your life you share.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-competitive-hype",
+    "character": "hype-man",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["competitive friend", "competes with me", "diminishes success", "one upping friend", "always competing with me", "one-upping me", "turns it into a competition"],
+    "text": "WHY DOES EVERY WIN OF YOURS TRIGGER THE OLYMPICS?! Celebrate your achievement without shrinking it to protect somebody else's ego.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-competitive-sister",
+    "character": "crazy-little-sister",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["competitive friend", "competes with me", "diminishes success", "one upping friend", "always competing with me", "one-upping me", "turns it into a competition"],
+    "text": "Do they say congratulations or immediately launch their own TED Talk? Pay attention. You don't need to compete or keep auditioning for friendship.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-excluded-aunty",
+    "character": "nosey-aunty",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["friends went out without me", "excluded", "not invited", "group outing", "went out without me", "left me out", "didn't invite me"],
+    "text": "Ask someone you trust what happened before making assumptions. If it's a pattern, that's a different conversation.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-excluded-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["friends went out without me", "excluded", "not invited", "group outing", "went out without me", "left me out", "didn't invite me"],
+    "text": "One missed invitation may be an oversight. Repeated exclusion is information. Ask directly, then decide whether this group makes room for you.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-excluded-hype",
+    "character": "hype-man",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["friends went out without me", "excluded", "not invited", "group outing", "went out without me", "left me out", "didn't invite me"],
+    "text": "THE GROUP CHAT HAD A FIELD TRIP AND YOU DIDN'T GET THE MEMO?! Ask what happened, but don't beg for a seat at a table where they keep hiding the chairs.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-excluded-sister",
+    "character": "crazy-little-sister",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["friends went out without me", "excluded", "not invited", "group outing", "went out without me", "left me out", "didn't invite me"],
+    "text": "Did they forget you or forget to pretend they like you? Ask once. If this keeps happening, make plans with people who include you.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-one-sided-aunty",
+    "character": "nosey-aunty",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["one sided friendship", "always call first", "always initiate", "only me checking in", "one-sided friendship", "always text first", "always the one reaching out"],
+    "text": "Who checks on you when you're quiet? Pull back a little and see whether this friendship has two people in it or one person and a calendar reminder.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-one-sided-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["one sided friendship", "always call first", "always initiate", "only me checking in", "one-sided friendship", "always text first", "always the one reaching out"],
+    "text": "Explain that you want more mutual effort, then give them space to demonstrate it. You cannot force reciprocity.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-one-sided-hype",
+    "character": "hype-man",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["one sided friendship", "always call first", "always initiate", "only me checking in", "one-sided friendship", "always text first", "always the one reaching out"],
+    "text": "YOU'RE RUNNING THE FRIENDSHIP LIKE A ONE-PERSON NGO! Take a step back to see what happens when you're not doing all the work.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-one-sided-sister",
+    "character": "crazy-little-sister",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["one sided friendship", "always call first", "always initiate", "only me checking in", "one-sided friendship", "always text first", "always the one reaching out"],
+    "text": "If you stop texting, does the friendship die of natural causes? You deserve effort too, not just a contact saved in somebody's phone.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-borrower-aunty",
+    "character": "nosey-aunty",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["friend owes me money", "borrowed money", "won't pay back", "keeps borrowing", "owes me money", "keeps borrowing money"],
+    "text": "Send the amount, date and a clear repayment request in writing. No more lending until this is settled.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-borrower-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["friend owes me money", "borrowed money", "won't pay back", "keeps borrowing", "owes me money", "keeps borrowing money"],
+    "text": "Ask for repayment with a specific date. Keep the agreement and do not lend more to someone who has not repaid the existing loan.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-borrower-hype",
+    "character": "hype-man",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["friend owes me money", "borrowed money", "won't pay back", "keeps borrowing", "owes me money", "keeps borrowing money"],
+    "text": "YOUR MONEY HAS GONE ON A LONG HOLIDAY WITH NO RETURN TICKET! Message them with the amount and a date. No sequel loan!",
+    "needsReview": true
+  },
+  {
+    "id": "friend-borrower-sister",
+    "character": "crazy-little-sister",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["friend owes me money", "borrowed money", "won't pay back", "keeps borrowing", "owes me money", "keeps borrowing money"],
+    "text": "Are you their friend or their bank with no interest and no collections department? Ask clearly. The lending window is closed.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-jealous-aunty",
+    "character": "nosey-aunty",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["jealous friend", "resent my success", "friend jealous", "undermines me", "friend is jealous of me", "friend resents my success", "jealous of me"],
+    "text": "It may be jealousy, insecurity or something else. But repeated comments that diminish you deserve attention.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-jealous-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["jealous friend", "resent my success", "friend jealous", "undermines me", "friend is jealous of me", "friend resents my success", "jealous of me"],
+    "text": "Focus on observable behaviour rather than guessing motives. Address specific comments; if it continues, share less and invest in supportive people.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-jealous-hype",
+    "character": "hype-man",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["jealous friend", "resent my success", "friend jealous", "undermines me", "friend is jealous of me", "friend resents my success", "jealous of me"],
+    "text": "YOUR GOOD NEWS SHOULD NOT NEED A DISCLAIMER! Don't make yourself smaller to keep somebody comfortable.",
+    "needsReview": true
+  },
+  {
+    "id": "friend-jealous-sister",
+    "character": "crazy-little-sister",
+    "topic": "friendships",
+    "priority": 2,
+    "keywords": ["jealous friend", "resent my success", "friend jealous", "undermines me", "friend is jealous of me", "friend resents my success", "jealous of me"],
+    "text": "If your success turns them into a professional critic, take note. You don't have to accuse them; just stop handing them the microphone.",
+    "needsReview": true
+  },
+  {
+    "id": "ex-still-love-aunty",
+    "character": "nosey-aunty",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["still love my ex", "thinking about ex", "new relationship but miss ex", "still in love with my ex", "miss my ex", "thinking about my ex", "can't get over my ex"],
+    "text": "Do you miss the actual person or the version of the relationship you wish had worked? Those are not the same thing.",
+    "needsReview": true
+  },
+  {
+    "id": "ex-still-love-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["still love my ex", "thinking about ex", "new relationship but miss ex", "still in love with my ex", "miss my ex", "thinking about my ex", "can't get over my ex"],
+    "text": "Do not make major decisions based on nostalgia alone. Remember why it ended and be fair to your current partner.",
+    "needsReview": true
+  },
+  {
+    "id": "ex-still-love-hype",
+    "character": "hype-man",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["still love my ex", "thinking about ex", "new relationship but miss ex", "still in love with my ex", "miss my ex", "thinking about my ex", "can't get over my ex"],
+    "text": "THE EX HAS RETURNED AS A GUEST STAR IN YOUR BRAIN! Missing somebody doesn't automatically mean you belong together.",
+    "needsReview": true
+  },
+  {
+    "id": "ex-still-love-sister",
+    "character": "crazy-little-sister",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["still love my ex", "thinking about ex", "new relationship but miss ex", "still in love with my ex", "miss my ex", "thinking about my ex", "can't get over my ex"],
+    "text": "Are you in love with your ex, or bored and romanticising the highlight reel? Write down why it ended—the unedited version.",
+    "needsReview": true
+  },
+  {
+    "id": "ex-back-aunty",
+    "character": "nosey-aunty",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["ex came back", "ex contacted me", "ex wants another chance", "hey stranger ex", "my ex came back", "ex wants me back", "ex texted me"],
+    "text": "Before entertaining a reunion, ask what has actually changed since the breakup besides their access to your phone.",
+    "needsReview": true
+  },
+  {
+    "id": "ex-back-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["ex came back", "ex contacted me", "ex wants another chance", "hey stranger ex", "my ex came back", "ex wants me back", "ex texted me"],
+    "text": "Ask why they are reaching out and what has changed. Renewed interest is not proof the old problems are solved.",
+    "needsReview": true
+  },
+  {
+    "id": "ex-back-hype",
+    "character": "hype-man",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["ex came back", "ex contacted me", "ex wants another chance", "hey stranger ex", "my ex came back", "ex wants me back", "ex texted me"],
+    "text": "THE SEQUEL NOBODY ORDERED! We need evidence of character development, not a heartfelt paragraph at midnight.",
+    "needsReview": true
+  },
+  {
+    "id": "ex-back-sister",
+    "character": "crazy-little-sister",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["ex came back", "ex contacted me", "ex wants another chance", "hey stranger ex", "my ex came back", "ex wants me back", "ex texted me"],
+    "text": "The ex has come back like a subscription you forgot to cancel. You can hear them out, but you are not required to renew.",
+    "needsReview": true
+  },
+  {
+    "id": "crush-friend-aunty",
+    "character": "nosey-aunty",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["feelings for friend", "catching feelings", "friend only sees me as friend", "feelings for my friend", "caught feelings for my friend", "only sees me as a friend"],
+    "text": "Think about what you want and whether you're ready for the friendship to change. If you tell them, do it without expecting a particular answer.",
+    "needsReview": true
+  },
+  {
+    "id": "crush-friend-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["feelings for friend", "catching feelings", "friend only sees me as friend", "feelings for my friend", "caught feelings for my friend", "only sees me as a friend"],
+    "text": "If you disclose your feelings, make clear that you respect their answer and will not pressure them.",
+    "needsReview": true
+  },
+  {
+    "id": "crush-friend-hype",
+    "character": "hype-man",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["feelings for friend", "catching feelings", "friend only sees me as friend", "feelings for my friend", "caught feelings for my friend", "only sees me as a friend"],
+    "text": "WE HAVE A FRIENDSHIP PLOT TWIST! Tell them respectfully or decide the friendship matters more than the uncertainty. Don't stay silently resentful.",
+    "needsReview": true
+  },
+  {
+    "id": "crush-friend-sister",
+    "character": "crazy-little-sister",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["feelings for friend", "catching feelings", "friend only sees me as friend", "feelings for my friend", "caught feelings for my friend", "only sees me as a friend"],
+    "text": "Are you being their friend or secretly auditioning to be their partner? Be honest, and don't guilt-trip them if they don't feel the same.",
+    "needsReview": true
+  },
+  {
+    "id": "situationship-aunty",
+    "character": "nosey-aunty",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["situationship", "won't define relationship", "months dating", "what are we", "define the relationship", "dating for months", "won't put a label on it"],
+    "text": "You are allowed to want commitment. Tell them what you want and ask whether they want the same thing.",
+    "needsReview": true
+  },
+  {
+    "id": "situationship-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["situationship", "won't define relationship", "months dating", "what are we", "define the relationship", "dating for months", "won't put a label on it"],
+    "text": "State what relationship you want and ask directly. If they repeatedly avoid answering, treat the avoidance as information.",
+    "needsReview": true
+  },
+  {
+    "id": "situationship-hype",
+    "character": "hype-man",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["situationship", "won't define relationship", "months dating", "what are we", "define the relationship", "dating for months", "won't put a label on it"],
+    "text": "THREE SEASONS AND NO SERIES TITLE! Ask the question. You're not asking for a mortgage; you're asking where you stand.",
+    "needsReview": true
+  },
+  {
+    "id": "situationship-sister",
+    "character": "crazy-little-sister",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["situationship", "won't define relationship", "months dating", "what are we", "define the relationship", "dating for months", "won't put a label on it"],
+    "text": "If you're scared to ask “what are we?” because you might not like the answer, that's exactly why you need to ask.",
+    "needsReview": true
+  },
+  {
+    "id": "marriage-pressure-aunty",
+    "character": "nosey-aunty",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["everyone getting married", "marriage pressure", "when will you marry", "single pressure", "everyone is getting married", "pressure to get married", "when are you getting married"],
+    "text": "Your timeline is not a public utility. You can want marriage without choosing someone just to quiet the aunties.",
+    "needsReview": true
+  },
+  {
+    "id": "marriage-pressure-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["everyone getting married", "marriage pressure", "when will you marry", "single pressure", "everyone is getting married", "pressure to get married", "when are you getting married"],
+    "text": "Separate your desire for marriage from pressure around you. Pursue compatible relationships intentionally; don't choose a partner to meet someone else's deadline.",
+    "needsReview": true
+  },
+  {
+    "id": "marriage-pressure-hype",
+    "character": "hype-man",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["everyone getting married", "marriage pressure", "when will you marry", "single pressure", "everyone is getting married", "pressure to get married", "when are you getting married"],
+    "text": "EVERYBODY'S POSTING ENGAGEMENT PHOTOS AND NOW YOU FEEL YOU MISSED REGISTRATION?! Your life is not a group project.",
+    "needsReview": true
+  },
+  {
+    "id": "marriage-pressure-sister",
+    "character": "crazy-little-sister",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["everyone getting married", "marriage pressure", "when will you marry", "single pressure", "everyone is getting married", "pressure to get married", "when are you getting married"],
+    "text": "When they ask when it's your turn, ask when they're paying for the wedding. Seriously, do you want marriage now or just want the questions to stop?",
+    "needsReview": true
+  },
+  {
+    "id": "marriage-ultimatum-aunty",
+    "character": "nosey-aunty",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["partner postponing marriage", "marriage ultimatum", "won't commit", "keeps delaying wedding", "won't marry me", "keeps postponing the wedding", "delaying getting married"],
+    "text": "How many times can somebody say “soon” before it becomes a decorative word? Discuss what marriage means to both of you and set a realistic timeline.",
+    "needsReview": true
+  },
+  {
+    "id": "marriage-ultimatum-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["partner postponing marriage", "marriage ultimatum", "won't commit", "keeps delaying wedding", "won't marry me", "keeps postponing the wedding", "delaying getting married"],
+    "text": "Ask whether you both genuinely want marriage and what needs to happen first. If your goals are incompatible, face that reality.",
+    "needsReview": true
+  },
+  {
+    "id": "marriage-ultimatum-hype",
+    "character": "hype-man",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["partner postponing marriage", "marriage ultimatum", "won't commit", "keeps delaying wedding", "won't marry me", "keeps postponing the wedding", "delaying getting married"],
+    "text": "“ONE DAY” IS NOT A DATE ON THE CALENDAR! You deserve a real conversation, not a lifetime subscription to maybe.",
+    "needsReview": true
+  },
+  {
+    "id": "marriage-ultimatum-sister",
+    "character": "crazy-little-sister",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["partner postponing marriage", "marriage ultimatum", "won't commit", "keeps delaying wedding", "won't marry me", "keeps postponing the wedding", "delaying getting married"],
+    "text": "How long have you been engaged to the concept of getting engaged? Have the actual conversation—no threats, just clarity.",
+    "needsReview": true
+  },
+  {
+    "id": "suspicious-partner-aunty",
+    "character": "nosey-aunty",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["partner hides phone", "secretive phone", "guards phone", "acting suspicious", "hides their phone", "hiding their phone", "won't let me see the phone"],
+    "text": "A change in behaviour can feel unsettling, but it isn't proof of cheating. Explain what you've noticed and ask for an honest conversation.",
+    "needsReview": true
+  },
+  {
+    "id": "suspicious-partner-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["partner hides phone", "secretive phone", "guards phone", "acting suspicious", "hides their phone", "hiding their phone", "won't let me see the phone"],
+    "text": "Do not secretly access their devices. Explain what concerns you, ask directly, and consider whether trust can be repaired.",
+    "needsReview": true
+  },
+  {
+    "id": "suspicious-partner-hype",
+    "character": "hype-man",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["partner hides phone", "secretive phone", "guards phone", "acting suspicious", "hides their phone", "hiding their phone", "won't let me see the phone"],
+    "text": "WHY IS THE PHONE UNDER WITNESS PROTECTION?! Don't jump to a verdict. Say what you've noticed and ask what's going on.",
+    "needsReview": true
+  },
+  {
+    "id": "suspicious-partner-sister",
+    "character": "crazy-little-sister",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["partner hides phone", "secretive phone", "guards phone", "acting suspicious", "hides their phone", "hiding their phone", "won't let me see the phone"],
+    "text": "The phone has more privacy than a head of state? Don't hack devices. Ask directly, and notice whether they respond honestly.",
+    "needsReview": true
+  },
+  {
+    "id": "unequal-relationship-aunty",
+    "character": "nosey-aunty",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["I do everything relationship", "pay for everything", "emotional labour", "unequal relationship", "emotional labor", "i do everything in this relationship", "one sided relationship"],
+    "text": "Are you in a relationship or running a company with one unpaid employee? List what you're carrying and ask for a fairer share.",
+    "needsReview": true
+  },
+  {
+    "id": "unequal-relationship-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["I do everything relationship", "pay for everything", "emotional labour", "unequal relationship", "emotional labor", "i do everything in this relationship", "one sided relationship"],
+    "text": "Name the imbalance concretely and agree on observable changes. If your partner refuses to participate, consider whether the relationship is sustainable.",
+    "needsReview": true
+  },
+  {
+    "id": "unequal-relationship-hype",
+    "character": "hype-man",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["I do everything relationship", "pay for everything", "emotional labour", "unequal relationship", "emotional labor", "i do everything in this relationship", "one sided relationship"],
+    "text": "YOU'RE THE PARTNER, PLANNER, FINANCE TEAM AND CUSTOMER-SERVICE DESK! Tell them what needs to change.",
+    "needsReview": true
+  },
+  {
+    "id": "unequal-relationship-sister",
+    "character": "crazy-little-sister",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["I do everything relationship", "pay for everything", "emotional labour", "unequal relationship", "emotional labor", "i do everything in this relationship", "one sided relationship"],
+    "text": "If you disappeared for a week, would the relationship still function? Talk about the imbalance and stop rescuing every situation.",
+    "needsReview": true
+  },
+  {
+    "id": "bad-kisser-aunty",
+    "character": "nosey-aunty",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["bad kisser", "bad at kissing", "don't like how partner kisses", "terrible kisser", "hate the way they kiss", "kissing is awful"],
+    "text": "Everything is lovely except the mouth department? Gentle guidance and positive feedback can help; no performance review mid-kiss.",
+    "needsReview": true
+  },
+  {
+    "id": "bad-kisser-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["bad kisser", "bad at kissing", "don't like how partner kisses", "terrible kisser", "hate the way they kiss", "kissing is awful"],
+    "text": "People can learn each other's preferences. Give kind, specific feedback and see whether you're compatible and responsive.",
+    "needsReview": true
+  },
+  {
+    "id": "bad-kisser-hype",
+    "character": "hype-man",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["bad kisser", "bad at kissing", "don't like how partner kisses", "terrible kisser", "hate the way they kiss", "kissing is awful"],
+    "text": "THE CHEMISTRY IS THERE BUT THE TECHNICAL EXECUTION NEEDS TRAINING! Guide them gently; this is not a public audition.",
+    "needsReview": true
+  },
+  {
+    "id": "bad-kisser-sister",
+    "character": "crazy-little-sister",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["bad kisser", "bad at kissing", "don't like how partner kisses", "terrible kisser", "hate the way they kiss", "kissing is awful"],
+    "text": "Are you kissing them or escaping a very wet handshake? Be kind, show what you like, and see if you can figure it out together.",
+    "needsReview": true
+  },
+  {
+    "id": "emotionally-unavailable-aunty",
+    "character": "nosey-aunty",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["emotionally unavailable", "fall for unavailable people", "people won't commit", "won't open up", "emotionally closed off"],
+    "text": "Why does your heart keep selecting people who are emotionally closed for renovations? Look at the pattern without blaming yourself.",
+    "needsReview": true
+  },
+  {
+    "id": "emotionally-unavailable-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["emotionally unavailable", "fall for unavailable people", "people won't commit", "won't open up", "emotionally closed off"],
+    "text": "Look at repeated patterns and what you overlook early on. Set standards for consistency and emotional availability.",
+    "needsReview": true
+  },
+  {
+    "id": "emotionally-unavailable-hype",
+    "character": "hype-man",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["emotionally unavailable", "fall for unavailable people", "people won't commit", "won't open up", "emotionally closed off"],
+    "text": "WHY ARE WE APPLYING FOR LOVE AT PLACES THAT ARE NOT HIRING?! Chemistry is lovely, but availability matters.",
+    "needsReview": true
+  },
+  {
+    "id": "emotionally-unavailable-sister",
+    "character": "crazy-little-sister",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["emotionally unavailable", "fall for unavailable people", "people won't commit", "won't open up", "emotionally closed off"],
+    "text": "If they tell you they're not ready, believe them the first time. You are not a rehabilitation centre with romantic lighting.",
+    "needsReview": true
+  },
+  {
+    "id": "secret-relationship-aunty",
+    "character": "nosey-aunty",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["partner hides me", "won't introduce me", "secret relationship", "hides relationship", "hiding our relationship", "won't tell people about us", "hides me from everyone"],
+    "text": "Ask why you're being kept separate from their life. Privacy is one thing; indefinite secrecy is another.",
+    "needsReview": true
+  },
+  {
+    "id": "secret-relationship-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["partner hides me", "won't introduce me", "secret relationship", "hides relationship", "hiding our relationship", "won't tell people about us", "hides me from everyone"],
+    "text": "Ask why the relationship is private and agree on what privacy means. If secrecy protects deception, reconsider whether this meets your needs.",
+    "needsReview": true
+  },
+  {
+    "id": "secret-relationship-hype",
+    "character": "hype-man",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["partner hides me", "won't introduce me", "secret relationship", "hides relationship", "hiding our relationship", "won't tell people about us", "hides me from everyone"],
+    "text": "WHY ARE YOU A TOP-SECRET RELATIONSHIP?! Ask directly. There is a difference between privacy and pretending you don't exist.",
+    "needsReview": true
+  },
+  {
+    "id": "secret-relationship-sister",
+    "character": "crazy-little-sister",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["partner hides me", "won't introduce me", "secret relationship", "hides relationship", "hiding our relationship", "won't tell people about us", "hides me from everyone"],
+    "text": "Do their friends know you exist or are you an urban legend? Ask why, and notice whether the explanation changes.",
+    "needsReview": true
+  },
+  {
+    "id": "tempted-cheat-aunty",
+    "character": "nosey-aunty",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["tempted to cheat", "someone attractive made a move", "want to cheat", "temptation", "thinking about cheating", "someone made a move on me"],
+    "text": "Attraction happens; what you do with it matters. Ask what this temptation says about your relationship and your boundaries.",
+    "needsReview": true
+  },
+  {
+    "id": "tempted-cheat-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["tempted to cheat", "someone attractive made a move", "want to cheat", "temptation", "thinking about cheating", "someone made a move on me"],
+    "text": "Pause before acting. Decide whether you want to remain in your relationship and honour its agreements. Address problems honestly.",
+    "needsReview": true
+  },
+  {
+    "id": "tempted-cheat-hype",
+    "character": "hype-man",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["tempted to cheat", "someone attractive made a move", "want to cheat", "temptation", "thinking about cheating", "someone made a move on me"],
+    "text": "A FLIRTY TEXT IS NOT A SUMMONS FROM DESTINY! Decide what kind of partner you want to be before making a choice you'll have to explain.",
+    "needsReview": true
+  },
+  {
+    "id": "tempted-cheat-sister",
+    "character": "crazy-little-sister",
+    "topic": "dating-and-relationships",
+    "priority": 2,
+    "keywords": ["tempted to cheat", "someone attractive made a move", "want to cheat", "temptation", "thinking about cheating", "someone made a move on me"],
+    "text": "You can find somebody attractive without turning it into a whole side quest. Set a boundary and figure out what your relationship needs.",
+    "needsReview": true
+  },
+  {
+    "id": "untidy-partner-aunty",
+    "character": "nosey-aunty",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["untidy partner", "messy partner", "partner never cleans", "clothes everywhere", "partner is messy", "never tidies", "won't clean up", "leaves clothes everywhere"],
+    "text": "Are you hosting an untidy adult as a long-term guest? Agree on specific chores; “help more” is vague, but an actual plan can work.",
+    "needsReview": true
+  },
+  {
+    "id": "untidy-partner-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["untidy partner", "messy partner", "partner never cleans", "clothes everywhere", "partner is messy", "never tidies", "won't clean up", "leaves clothes everywhere"],
+    "text": "Agree on a fair division of household work, standards and frequency. If your partner refuses to contribute, address the respect issue.",
+    "needsReview": true
+  },
+  {
+    "id": "untidy-partner-hype",
+    "character": "hype-man",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["untidy partner", "messy partner", "partner never cleans", "clothes everywhere", "partner is messy", "never tidies", "won't clean up", "leaves clothes everywhere"],
+    "text": "THE FLOOR HAS BECOME A LAUNDRY ARCHIVE! Hold a household meeting and stop calling basic adult responsibilities “helping you.”",
+    "needsReview": true
+  },
+  {
+    "id": "untidy-partner-sister",
+    "character": "crazy-little-sister",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["untidy partner", "messy partner", "partner never cleans", "clothes everywhere", "partner is messy", "never tidies", "won't clean up", "leaves clothes everywhere"],
+    "text": "If the laundry pile gets any taller, it can start paying rent. Agree on chores; you are not adopting a grown adult as your extra child.",
+    "needsReview": true
+  },
+  {
+    "id": "in-laws-aunty",
+    "character": "nosey-aunty",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["hate partner family", "can't stand in laws", "partner family difficult", "in-laws disrespect", "in-laws", "mother-in-law", "mother in law"],
+    "text": "Tell me what they're actually doing. We can dislike behaviour without starting a family war before Sunday lunch.",
+    "needsReview": true
+  },
+  {
+    "id": "in-laws-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["hate partner family", "can't stand in laws", "partner family difficult", "in-laws disrespect", "in-laws", "mother-in-law", "mother in law"],
+    "text": "Focus on specific behaviour and agree on boundaries with your partner. They should take disrespect seriously and help enforce reasonable limits.",
+    "needsReview": true
+  },
+  {
+    "id": "in-laws-hype",
+    "character": "hype-man",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["hate partner family", "can't stand in laws", "partner family difficult", "in-laws disrespect", "in-laws", "mother-in-law", "mother in law"],
+    "text": "WE CAN LOVE OUR PARTNER WITHOUT JOINING THEIR ENTIRE FAMILY FAN CLUB! Be respectful, set boundaries, and make sure your partner understands.",
+    "needsReview": true
+  },
+  {
+    "id": "in-laws-sister",
+    "character": "crazy-little-sister",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["hate partner family", "can't stand in laws", "partner family difficult", "in-laws disrespect", "in-laws", "mother-in-law", "mother in law"],
+    "text": "You don't have to be besties with their family. You do need a plan for visits, comments and boundaries—and your partner can't pretend not to hear.",
+    "needsReview": true
+  },
+  {
+    "id": "mamas-boy-aunty",
+    "character": "nosey-aunty",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["mama's boy", "partner tells parents everything", "parents decide relationship", "parent controls decisions", "mummy's boy", "runs to his mother", "his mother decides everything"],
+    "text": "A close family bond isn't the issue; the question is whether you two can make adult decisions together.",
+    "needsReview": true
+  },
+  {
+    "id": "mamas-boy-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["mama's boy", "partner tells parents everything", "parents decide relationship", "parent controls decisions", "mummy's boy", "runs to his mother", "his mother decides everything"],
+    "text": "Discuss which decisions belong to the couple and which family input is welcome. Agree on privacy and boundaries.",
+    "needsReview": true
+  },
+  {
+    "id": "mamas-boy-hype",
+    "character": "hype-man",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["mama's boy", "partner tells parents everything", "parents decide relationship", "parent controls decisions", "mummy's boy", "runs to his mother", "his mother decides everything"],
+    "text": "WHY DOES YOUR RELATIONSHIP HAVE A THIRD-PARTY BOARD OF DIRECTORS?! Respecting parents is one thing; letting them run your partnership is another.",
+    "needsReview": true
+  },
+  {
+    "id": "mamas-boy-sister",
+    "character": "crazy-little-sister",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["mama's boy", "partner tells parents everything", "parents decide relationship", "parent controls decisions", "mummy's boy", "runs to his mother", "his mother decides everything"],
+    "text": "Did you date your partner or submit an application to their mother? Talk about what stays between you two.",
+    "needsReview": true
+  },
+  {
+    "id": "chores-aunty",
+    "character": "nosey-aunty",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["unequal chores", "partner won't do chores", "housework", "won't wash dishes", "dirty dishes", "i do all the chores", "won't do the housework", "chores aren't equal"],
+    "text": "Agree on who does what, because resentment grows beautifully in a sink full of dirty plates.",
+    "needsReview": true
+  },
+  {
+    "id": "chores-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["unequal chores", "partner won't do chores", "housework", "won't wash dishes", "dirty dishes", "i do all the chores", "won't do the housework", "chores aren't equal"],
+    "text": "Agree on a fair division of chores. If one person refuses to contribute, the problem is not the dishes; it's the expectation that someone else will do everything.",
+    "needsReview": true
+  },
+  {
+    "id": "chores-hype",
+    "character": "hype-man",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["unequal chores", "partner won't do chores", "housework", "won't wash dishes", "dirty dishes", "i do all the chores", "won't do the housework", "chores aren't equal"],
+    "text": "HOW DID YOU BECOME THE CEO, CFO AND CLEANING DEPARTMENT OF THIS HOUSE?! House meeting! Everybody gets chores.",
+    "needsReview": true
+  },
+  {
+    "id": "chores-sister",
+    "character": "crazy-little-sister",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["unequal chores", "partner won't do chores", "housework", "won't wash dishes", "dirty dishes", "i do all the chores", "won't do the housework", "chores aren't equal"],
+    "text": "The dishes are piling up like an art installation. Stop automatically washing everything and agree on chores.",
+    "needsReview": true
+  },
+  {
+    "id": "money-habits-aunty",
+    "character": "nosey-aunty",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["partner overspends", "different money habits", "saver spender", "financial incompatibility", "partner spends too much", "we fight about money", "spender and a saver"],
+    "text": "Money habits need an honest conversation before they become a relationship crisis. Talk numbers, priorities and what security means to each of you.",
+    "needsReview": true
+  },
+  {
+    "id": "money-habits-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["partner overspends", "different money habits", "saver spender", "financial incompatibility", "partner spends too much", "we fight about money", "spender and a saver"],
+    "text": "Discuss income, debt, savings and shared obligations without shaming. Set joint goals and individual spending budgets.",
+    "needsReview": true
+  },
+  {
+    "id": "money-habits-hype",
+    "character": "hype-man",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["partner overspends", "different money habits", "saver spender", "financial incompatibility", "partner spends too much", "we fight about money", "spender and a saver"],
+    "text": "YOUR SAVINGS ACCOUNT IS BUILDING A FUTURE WHILE THEIR CART IS BUILDING A VILLAGE! Agree on shared goals and actual numbers.",
+    "needsReview": true
+  },
+  {
+    "id": "money-habits-sister",
+    "character": "crazy-little-sister",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["partner overspends", "different money habits", "saver spender", "financial incompatibility", "partner spends too much", "we fight about money", "spender and a saver"],
+    "text": "The bank account is not a magic trick. Talk about spending before the next surprise purchase.",
+    "needsReview": true
+  },
+  {
+    "id": "bedroom-drought-aunty",
+    "character": "nosey-aunty",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["no sex", "sex life disappeared", "bedroom drought", "partner no intimacy", "we never have sex", "sexless relationship", "no intimacy"],
+    "text": "Intimacy can change because of stress, health, resentment or exhaustion. Approach it with curiosity rather than accusation.",
+    "needsReview": true
+  },
+  {
+    "id": "bedroom-drought-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["no sex", "sex life disappeared", "bedroom drought", "partner no intimacy", "we never have sex", "sexless relationship", "no intimacy"],
+    "text": "Talk outside the bedroom without pressure or blame. Ask how each of you feels and consider professional support if you both want it.",
+    "needsReview": true
+  },
+  {
+    "id": "bedroom-drought-hype",
+    "character": "hype-man",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["no sex", "sex life disappeared", "bedroom drought", "partner no intimacy", "we never have sex", "sexless relationship", "no intimacy"],
+    "text": "WE NEED A CONVERSATION, NOT A PERFORMANCE REVIEW! Ask how your partner feels and talk honestly without pressure or blame.",
+    "needsReview": true
+  },
+  {
+    "id": "bedroom-drought-sister",
+    "character": "crazy-little-sister",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["no sex", "sex life disappeared", "bedroom drought", "partner no intimacy", "we never have sex", "sexless relationship", "no intimacy"],
+    "text": "Have you talked about it, or are you both hoping it will fix itself during Netflix? Start gently and listen.",
+    "needsReview": true
+  },
+  {
+    "id": "wedding-cost-aunty",
+    "character": "nosey-aunty",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["can't afford wedding", "wedding too expensive", "family wedding expectations", "expensive wedding", "can't afford the wedding", "wedding is too expensive", "wedding costs too much"],
+    "text": "The marriage matters more than the centrepieces. Decide what you can afford, then let relatives have opinions without giving them your bank card.",
+    "needsReview": true
+  },
+  {
+    "id": "wedding-cost-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["can't afford wedding", "wedding too expensive", "family wedding expectations", "expensive wedding", "can't afford the wedding", "wedding is too expensive", "wedding costs too much"],
+    "text": "Set a firm budget that avoids harmful debt. Decide which traditions matter most and communicate the limits early.",
+    "needsReview": true
+  },
+  {
+    "id": "wedding-cost-hype",
+    "character": "hype-man",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["can't afford wedding", "wedding too expensive", "family wedding expectations", "expensive wedding", "can't afford the wedding", "wedding is too expensive", "wedding costs too much"],
+    "text": "WE ARE NOT GOING INTO DEBT TO FEED PEOPLE WHO WILL COMPLAIN ABOUT THE JOLLOF! Set the budget and protect it.",
+    "needsReview": true
+  },
+  {
+    "id": "wedding-cost-sister",
+    "character": "crazy-little-sister",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["can't afford wedding", "wedding too expensive", "family wedding expectations", "expensive wedding", "can't afford the wedding", "wedding is too expensive", "wedding costs too much"],
+    "text": "If the wedding costs more than your first year of marriage feels financially safe, we need to talk. A beautiful day needn't bankrupt you.",
+    "needsReview": true
+  },
+  {
+    "id": "baby-disagreement-aunty",
+    "character": "nosey-aunty",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["partner doesn't want children", "want kids partner doesn't", "baby disagreement", "children disagreement", "doesn't want kids", "disagree about having kids", "one of us wants a baby"],
+    "text": "This is not a small difference you can hide under a rug. You both deserve honesty without pressure or hoping the other will magically change.",
+    "needsReview": true
+  },
+  {
+    "id": "baby-disagreement-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["partner doesn't want children", "want kids partner doesn't", "baby disagreement", "children disagreement", "doesn't want kids", "disagree about having kids", "one of us wants a baby"],
+    "text": "Discuss whether each of you wants children and what that means. Do not assume someone will change their mind or pressure them either way.",
+    "needsReview": true
+  },
+  {
+    "id": "baby-disagreement-hype",
+    "character": "hype-man",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["partner doesn't want children", "want kids partner doesn't", "baby disagreement", "children disagreement", "doesn't want kids", "disagree about having kids", "one of us wants a baby"],
+    "text": "THIS IS BIGGER THAN ARGUING OVER WHAT TO WATCH! Have the honest conversation; neither person should be pressured into parenthood.",
+    "needsReview": true
+  },
+  {
+    "id": "baby-disagreement-sister",
+    "character": "crazy-little-sister",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["partner doesn't want children", "want kids partner doesn't", "baby disagreement", "children disagreement", "doesn't want kids", "disagree about having kids", "one of us wants a baby"],
+    "text": "Please don't marry somebody thinking you'll quietly convert them into wanting kids later. This is a life decision, not a plot twist.",
+    "needsReview": true
+  },
+  {
+    "id": "public-disrespect-aunty",
+    "character": "nosey-aunty",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["partner humiliates me", "disrespects me in public", "jokes at my expense", "embarrasses me in public", "mocks me in public", "humiliates me in public"],
+    "text": "A joke is only funny when nobody has to swallow their dignity to laugh along. Tell your partner what crosses the line.",
+    "needsReview": true
+  },
+  {
+    "id": "public-disrespect-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["partner humiliates me", "disrespects me in public", "jokes at my expense", "embarrasses me in public", "mocks me in public", "humiliates me in public"],
+    "text": "Identify the comments and explain their impact. Ask them to stop. Repeated humiliation deserves to be taken seriously.",
+    "needsReview": true
+  },
+  {
+    "id": "public-disrespect-hype",
+    "character": "hype-man",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["partner humiliates me", "disrespects me in public", "jokes at my expense", "embarrasses me in public", "mocks me in public", "humiliates me in public"],
+    "text": "WHY ARE YOU THE PUNCHLINE IN YOUR OWN RELATIONSHIP?! Tell them clearly it isn't funny to you.",
+    "needsReview": true
+  },
+  {
+    "id": "public-disrespect-sister",
+    "character": "crazy-little-sister",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["partner humiliates me", "disrespects me in public", "jokes at my expense", "embarrasses me in public", "mocks me in public", "humiliates me in public"],
+    "text": "If the joke needs you to be embarrassed for everyone else to laugh, it's not a good joke. Tell them to stop.",
+    "needsReview": true
+  },
+  {
+    "id": "roommate-marriage-aunty",
+    "character": "nosey-aunty",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["roommate marriage", "no romance", "married but disconnected", "no connection partner", "feel like roommates", "no romance left", "married but like roommates"],
+    "text": "It can happen when responsibilities take over. Tell your partner you miss feeling connected and make deliberate space for each other.",
+    "needsReview": true
+  },
+  {
+    "id": "roommate-marriage-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["roommate marriage", "no romance", "married but disconnected", "no connection partner", "feel like roommates", "no romance left", "married but like roommates"],
+    "text": "Describe the disconnection without blame. Agree on regular time together and discuss whether stress or resentment is driving it.",
+    "needsReview": true
+  },
+  {
+    "id": "roommate-marriage-hype",
+    "character": "hype-man",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["roommate marriage", "no romance", "married but disconnected", "no connection partner", "feel like roommates", "no romance left", "married but like roommates"],
+    "text": "YOU HAVE A HOUSEHOLD MANAGEMENT TEAM BUT WHERE IS THE ROMANCE DEPARTMENT?! Start small and talk about what each of you misses.",
+    "needsReview": true
+  },
+  {
+    "id": "roommate-marriage-sister",
+    "character": "crazy-little-sister",
+    "topic": "marriage-and-living-together",
+    "priority": 2,
+    "keywords": ["roommate marriage", "no romance", "married but disconnected", "no connection partner", "feel like roommates", "no romance left", "married but like roommates"],
+    "text": "Are you married or co-managing a very quiet Airbnb? Tell them you miss the relationship, not just the routine.",
+    "needsReview": true
+  },
+  {
+    "id": "parents-child-aunty",
+    "character": "nosey-aunty",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["fight with parents", "parents treat me like child", "parents don't respect independence", "treat me like a child", "fight with my parents", "parents don't respect my"],
+    "text": "Independence doesn't mean they stop caring, but it does mean you get a say. Decide what boundary you need and state it calmly.",
+    "needsReview": true
+  },
+  {
+    "id": "parents-child-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["fight with parents", "parents treat me like child", "parents don't respect independence", "treat me like a child", "fight with my parents", "parents don't respect my"],
+    "text": "Be clear about which decision is yours and what input you welcome. You may not persuade them to agree, but you can still set boundaries.",
+    "needsReview": true
+  },
+  {
+    "id": "parents-child-hype",
+    "character": "hype-man",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["fight with parents", "parents treat me like child", "parents don't respect independence", "treat me like a child", "fight with my parents", "parents don't respect my"],
+    "text": "YOU ARE A WHOLE ADULT AND STILL NEED PERMISSION TO BREATHE?! You can love your parents and make your own decisions.",
+    "needsReview": true
+  },
+  {
+    "id": "parents-child-sister",
+    "character": "crazy-little-sister",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["fight with parents", "parents treat me like child", "parents don't respect independence", "treat me like a child", "fight with my parents", "parents don't respect my"],
+    "text": "Do they ask your opinion or give instructions and call it a discussion? Pick one boundary to start with.",
+    "needsReview": true
+  },
+  {
+    "id": "golden-child-aunty",
+    "character": "nosey-aunty",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["golden child", "sibling favoured", "parents favour sibling", "favourite child", "parents favour my sibling", "parents favor my sibling", "favorite child"],
+    "text": "That hurts, especially when it keeps happening. Their favouritism is not a measure of your worth.",
+    "needsReview": true
+  },
+  {
+    "id": "golden-child-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["golden child", "sibling favoured", "parents favour sibling", "favourite child", "parents favour my sibling", "parents favor my sibling", "favorite child"],
+    "text": "Focus on concrete examples and how the pattern affects you. If useful, discuss it with your parents and build support outside the family dynamic.",
+    "needsReview": true
+  },
+  {
+    "id": "golden-child-hype",
+    "character": "hype-man",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["golden child", "sibling favoured", "parents favour sibling", "favourite child", "parents favour my sibling", "parents favor my sibling", "favorite child"],
+    "text": "YOU SHOULD NOT HAVE TO AUDITION FOR BASIC FAIRNESS IN YOUR OWN FAMILY! Don't spend your life competing for a trophy they keep handing away.",
+    "needsReview": true
+  },
+  {
+    "id": "golden-child-sister",
+    "character": "crazy-little-sister",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["golden child", "sibling favoured", "parents favour sibling", "favourite child", "parents favour my sibling", "parents favor my sibling", "favorite child"],
+    "text": "You don't have to compete for your parents' approval forever. Tell them what hurts and protect your peace.",
+    "needsReview": true
+  },
+  {
+    "id": "sibling-rivalry-aunty",
+    "character": "nosey-aunty",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["sibling rivalry", "competes with sibling", "sibling always competing", "family competition", "competing with my sibling", "my sibling competes with me"],
+    "text": "You can refuse to compete without pretending the behaviour doesn't bother you. Notice whether you've been pulled into a contest you never wanted.",
+    "needsReview": true
+  },
+  {
+    "id": "sibling-rivalry-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["sibling rivalry", "competes with sibling", "sibling always competing", "family competition", "competing with my sibling", "my sibling competes with me"],
+    "text": "Stop participating in scorekeeping. State that you won't engage in comparisons and address specific issues instead.",
+    "needsReview": true
+  },
+  {
+    "id": "sibling-rivalry-hype",
+    "character": "hype-man",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["sibling rivalry", "competes with sibling", "sibling always competing", "family competition", "competing with my sibling", "my sibling competes with me"],
+    "text": "WHY IS THERE A LEADERBOARD AT SUNDAY LUNCH?! Celebrate your own progress and leave the sibling Olympics to the people who bought tickets.",
+    "needsReview": true
+  },
+  {
+    "id": "sibling-rivalry-sister",
+    "character": "crazy-little-sister",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["sibling rivalry", "competes with sibling", "sibling always competing", "family competition", "competing with my sibling", "my sibling competes with me"],
+    "text": "Next time they compare salaries, partners or achievements, ask who appointed them head judge. You can step out of the competition.",
+    "needsReview": true
+  },
+  {
+    "id": "entitled-sibling-aunty",
+    "character": "nosey-aunty",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["sibling always asks money", "entitled sibling", "rescue sibling financially", "family asks money", "sibling keeps asking for money", "bailing out my sibling"],
+    "text": "You can care about them without paying for every consequence. Decide what you can afford and be clear about what you won't cover.",
+    "needsReview": true
+  },
+  {
+    "id": "entitled-sibling-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["sibling always asks money", "entitled sibling", "rescue sibling financially", "family asks money", "sibling keeps asking for money", "bailing out my sibling"],
+    "text": "Set a financial boundary and stick to it. If you help, make the amount and terms explicit and never offer money you cannot afford to lose.",
+    "needsReview": true
+  },
+  {
+    "id": "entitled-sibling-hype",
+    "character": "hype-man",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["sibling always asks money", "entitled sibling", "rescue sibling financially", "family asks money", "sibling keeps asking for money", "bailing out my sibling"],
+    "text": "YOU ARE NOT THE FAMILY ATM WITH LEGS! Help when you choose and can afford it, not because guilt has sent an invoice.",
+    "needsReview": true
+  },
+  {
+    "id": "entitled-sibling-sister",
+    "character": "crazy-little-sister",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["sibling always asks money", "entitled sibling", "rescue sibling financially", "family asks money", "sibling keeps asking for money", "bailing out my sibling"],
+    "text": "Do they call to check on you or only when their account is fighting for its life? Set a limit and say no to the rest.",
+    "needsReview": true
+  },
+  {
+    "id": "family-gossip-aunty",
+    "character": "nosey-aunty",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["relative gossiping", "family shares my business", "private information family gossip", "family is gossiping", "family tells my business", "relative told everyone"],
+    "text": "Tell the relative your private information is not theirs to circulate. Adjust what you share with someone who cannot keep confidence.",
+    "needsReview": true
+  },
+  {
+    "id": "family-gossip-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["relative gossiping", "family shares my business", "private information family gossip", "family is gossiping", "family tells my business", "relative told everyone"],
+    "text": "Address the person directly and state what you expect them to keep private. Share less until they show they respect your boundary.",
+    "needsReview": true
+  },
+  {
+    "id": "family-gossip-hype",
+    "character": "hype-man",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["relative gossiping", "family shares my business", "private information family gossip", "family is gossiping", "family tells my business", "relative told everyone"],
+    "text": "WHO AUTHORIZED THE FAMILY PRESS RELEASE?! Tell them your business is not theirs to broadcast, then stop giving them exclusive access.",
+    "needsReview": true
+  },
+  {
+    "id": "family-gossip-sister",
+    "character": "crazy-little-sister",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["relative gossiping", "family shares my business", "private information family gossip", "family is gossiping", "family tells my business", "relative told everyone"],
+    "text": "Next time they ask for an update, give them the weather forecast. Seriously, tell them to stop sharing your private business.",
+    "needsReview": true
+  },
+  {
+    "id": "unwanted-advice-aunty",
+    "character": "nosey-aunty",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["family gives unsolicited advice", "everyone has opinion", "family criticises decisions", "unsolicited advice", "everyone has an opinion about my life"],
+    "text": "You can appreciate that people care without giving them voting rights over your life. Try: “I hear you, but I've made my decision.”",
+    "needsReview": true
+  },
+  {
+    "id": "unwanted-advice-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["family gives unsolicited advice", "everyone has opinion", "family criticises decisions", "unsolicited advice", "everyone has an opinion about my life"],
+    "text": "Decide which advice is useful and which is unwanted. Thank people briefly, then restate your decision without inviting debate.",
+    "needsReview": true
+  },
+  {
+    "id": "unwanted-advice-hype",
+    "character": "hype-man",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["family gives unsolicited advice", "everyone has opinion", "family criticises decisions", "unsolicited advice", "everyone has an opinion about my life"],
+    "text": "YOUR LIFE HAS MORE COMMENTATORS THAN A FOOTBALL FINAL! You can listen without obeying every opinion.",
+    "needsReview": true
+  },
+  {
+    "id": "unwanted-advice-sister",
+    "character": "crazy-little-sister",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["family gives unsolicited advice", "everyone has opinion", "family criticises decisions", "unsolicited advice", "everyone has an opinion about my life"],
+    "text": "If everybody's opinion gets a vote, when exactly do YOU get to live? Say thanks, then make your own decision.",
+    "needsReview": true
+  },
+  {
+    "id": "family-atm-aunty",
+    "character": "nosey-aunty",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["family expects me to pay", "family ATM", "I earn so family asks money", "pay for everyone", "treat me like an atm", "family always asks for money", "expected to pay for the family"],
+    "text": "Your income is not a public resource. Help because you choose to, not because everyone has budgeted your salary for you.",
+    "needsReview": true
+  },
+  {
+    "id": "family-atm-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["family expects me to pay", "family ATM", "I earn so family asks money", "pay for everyone", "treat me like an atm", "family always asks for money", "expected to pay for the family"],
+    "text": "Set a realistic amount you can afford to contribute, if any. Communicate the limit without having to disclose every detail of your finances.",
+    "needsReview": true
+  },
+  {
+    "id": "family-atm-hype",
+    "character": "hype-man",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["family expects me to pay", "family ATM", "I earn so family asks money", "pay for everyone", "treat me like an atm", "family always asks for money", "expected to pay for the family"],
+    "text": "YOUR SALARY HAS BEEN ASSIGNED TO EVERYBODY EXCEPT YOU! Decide what you can give without jeopardising your own goals.",
+    "needsReview": true
+  },
+  {
+    "id": "family-atm-sister",
+    "character": "crazy-little-sister",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["family expects me to pay", "family ATM", "I earn so family asks money", "pay for everyone", "treat me like an atm", "family always asks for money", "expected to pay for the family"],
+    "text": "Just because you earn money doesn't mean you've become the family bank with unlimited withdrawals. Set a limit.",
+    "needsReview": true
+  },
+  {
+    "id": "difficult-parent-aunty",
+    "character": "nosey-aunty",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["emotionally demanding parent", "guilty setting boundaries", "parent makes me feel guilty", "parent guilt trips me", "makes me feel guilty"],
+    "text": "You can care and still have limits. Let's find a boundary that protects you without requiring you to stop loving them.",
+    "needsReview": true
+  },
+  {
+    "id": "difficult-parent-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["emotionally demanding parent", "guilty setting boundaries", "parent makes me feel guilty", "parent guilt trips me", "makes me feel guilty"],
+    "text": "State what you can realistically offer and what you cannot. Repeat the boundary consistently and seek trusted support if needed.",
+    "needsReview": true
+  },
+  {
+    "id": "difficult-parent-hype",
+    "character": "hype-man",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["emotionally demanding parent", "guilty setting boundaries", "parent makes me feel guilty", "parent guilt trips me", "makes me feel guilty"],
+    "text": "YOU CAN LOVE YOUR PARENT WITHOUT BEING ON CALL 24/7! A boundary isn't punishment; it's how you avoid burning out.",
+    "needsReview": true
+  },
+  {
+    "id": "difficult-parent-sister",
+    "character": "crazy-little-sister",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["emotionally demanding parent", "guilty setting boundaries", "parent makes me feel guilty", "parent guilt trips me", "makes me feel guilty"],
+    "text": "Feeling guilty doesn't automatically mean you've done something wrong. Set the boundary and don't let guilt make every decision.",
+    "needsReview": true
+  },
+  {
+    "id": "inheritance-aunty",
+    "character": "nosey-aunty",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["inheritance fight", "family property dispute", "relatives fighting over money", "inheritance conflict", "fighting over inheritance", "fighting over the will", "family property fight"],
+    "text": "Keep the conversation factual, save relevant documents and do not sign anything under pressure. This is a moment for independent legal advice, not family rumours.",
+    "needsReview": true
+  },
+  {
+    "id": "inheritance-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["inheritance fight", "family property dispute", "relatives fighting over money", "inheritance conflict", "fighting over inheritance", "fighting over the will", "family property fight"],
+    "text": "Do not rely on verbal promises or pressure. Keep documents and seek independent legal advice in the relevant jurisdiction before signing anything.",
+    "needsReview": true
+  },
+  {
+    "id": "inheritance-hype",
+    "character": "hype-man",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["inheritance fight", "family property dispute", "relatives fighting over money", "inheritance conflict", "fighting over inheritance", "fighting over the will", "family property fight"],
+    "text": "THE FAMILY HAS TURNED THE ESTATE INTO A SEASON FINALE! Stay calm, keep records and get independent legal advice.",
+    "needsReview": true
+  },
+  {
+    "id": "inheritance-sister",
+    "character": "crazy-little-sister",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["inheritance fight", "family property dispute", "relatives fighting over money", "inheritance conflict", "fighting over inheritance", "fighting over the will", "family property fight"],
+    "text": "Everybody suddenly remembers what the deceased “really wanted.” Don't sign anything you don't understand; get proper legal advice.",
+    "needsReview": true
+  },
+  {
+    "id": "family-secret-aunty",
+    "character": "nosey-aunty",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["family secret", "discovered family secret", "everyone knew but me", "kept a family secret", "everyone knew except me"],
+    "text": "Take a breath. Establish what you know, what remains uncertain and who can answer honestly before confronting the entire family.",
+    "needsReview": true
+  },
+  {
+    "id": "family-secret-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["family secret", "discovered family secret", "everyone knew but me", "kept a family secret", "everyone knew except me"],
+    "text": "Separate confirmed facts from assumptions. Consider who is involved and what you need to understand before deciding how to respond.",
+    "needsReview": true
+  },
+  {
+    "id": "family-secret-hype",
+    "character": "hype-man",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["family secret", "discovered family secret", "everyone knew but me", "kept a family secret", "everyone knew except me"],
+    "text": "THAT IS A LOT TO FIND OUT ALL AT ONCE. Don't solve the whole family mystery tonight. Confirm what you know and talk to someone trustworthy.",
+    "needsReview": true
+  },
+  {
+    "id": "family-secret-sister",
+    "character": "crazy-little-sister",
+    "topic": "family-and-friends",
+    "priority": 2,
+    "keywords": ["family secret", "discovered family secret", "everyone knew but me", "kept a family secret", "everyone knew except me"],
+    "text": "The family has been running a secret group chat without you. Before going full detective, make sure the information is accurate.",
+    "needsReview": true
+  },
+  {
+    "id": "broke-aunty",
+    "character": "nosey-aunty",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["no money", "payday far away", "account balance", "friends want to go out", "i'm broke", "im broke", "i am broke", "so broke", "waiting for payday"],
+    "text": "Tell them your budget is tight and suggest something affordable. Friendship should not require overdraft fees, darling.",
+    "needsReview": true
+  },
+  {
+    "id": "broke-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["no money", "payday far away", "account balance", "friends want to go out", "i'm broke", "im broke", "i am broke", "so broke", "waiting for payday"],
+    "text": "Cover essentials first, pause non-essential spending and tell friends what you can afford rather than borrowing to keep up.",
+    "needsReview": true
+  },
+  {
+    "id": "broke-hype",
+    "character": "hype-man",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["no money", "payday far away", "account balance", "friends want to go out", "i'm broke", "im broke", "i am broke", "so broke", "waiting for payday"],
+    "text": "YOUR ACCOUNT BALANCE HAS REQUESTED PRIVACY! We are not going into debt for cocktails and vibes. Suggest a cheaper plan.",
+    "needsReview": true
+  },
+  {
+    "id": "broke-sister",
+    "character": "crazy-little-sister",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["no money", "payday far away", "account balance", "friends want to go out", "i'm broke", "im broke", "i am broke", "so broke", "waiting for payday"],
+    "text": "Your account has two digits and your friends are planning luxury? Sit this one out or suggest something cheap.",
+    "needsReview": true
+  },
+  {
+    "id": "lifestyle-inflation-aunty",
+    "character": "nosey-aunty",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["lifestyle inflation", "earn more but no money", "spend all salary", "no savings", "lifestyle creep", "spend my whole salary", "earn more and still broke"],
+    "text": "Track where the money goes for a month before blaming yourself. Small recurring expenses can quietly eat the raise.",
+    "needsReview": true
+  },
+  {
+    "id": "lifestyle-inflation-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["lifestyle inflation", "earn more but no money", "spend all salary", "no savings", "lifestyle creep", "spend my whole salary", "earn more and still broke"],
+    "text": "Review spending against income, automate savings where possible and focus on the largest recurring costs first.",
+    "needsReview": true
+  },
+  {
+    "id": "lifestyle-inflation-hype",
+    "character": "hype-man",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["lifestyle inflation", "earn more but no money", "spend all salary", "no savings", "lifestyle creep", "spend my whole salary", "earn more and still broke"],
+    "text": "THE PAY RAISE ARRIVED AND IMMEDIATELY DISAPPEARED INTO THE ATMOSPHERE! Track it, save first and choose upgrades deliberately.",
+    "needsReview": true
+  },
+  {
+    "id": "lifestyle-inflation-sister",
+    "character": "crazy-little-sister",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["lifestyle inflation", "earn more but no money", "spend all salary", "no savings", "lifestyle creep", "spend my whole salary", "earn more and still broke"],
+    "text": "You earn more but your account is still in survival mode? Check subscriptions, delivery, impulse buys and fixed costs.",
+    "needsReview": true
+  },
+  {
+    "id": "friends-earn-more-aunty",
+    "character": "nosey-aunty",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["friends earn more", "career behind friends", "friends successful", "feel left behind", "friends make more than me", "friends earn more than me", "feel behind my friends"],
+    "text": "It's okay to feel disappointed, but comparison isn't proof of failure. What do you actually want to change in your career?",
+    "needsReview": true
+  },
+  {
+    "id": "friends-earn-more-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["friends earn more", "career behind friends", "friends successful", "feel left behind", "friends make more than me", "friends earn more than me", "feel behind my friends"],
+    "text": "Recognise the feeling without treating it as proof of failure. Identify one realistic goal and the next action you can take.",
+    "needsReview": true
+  },
+  {
+    "id": "friends-earn-more-hype",
+    "character": "hype-man",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["friends earn more", "career behind friends", "friends successful", "feel left behind", "friends make more than me", "friends earn more than me", "feel behind my friends"],
+    "text": "YOUR FRIENDS ARE ON DIFFERENT TIMELINES, NOT A DIFFERENT PLANET! Let their progress inspire you, not define you.",
+    "needsReview": true
+  },
+  {
+    "id": "friends-earn-more-sister",
+    "character": "crazy-little-sister",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["friends earn more", "career behind friends", "friends successful", "feel left behind", "friends make more than me", "friends earn more than me", "feel behind my friends"],
+    "text": "Are you unhappy with your life or tired of seeing everybody's promotion announcement? Be honest with yourself.",
+    "needsReview": true
+  },
+  {
+    "id": "unemployed-partner-aunty",
+    "character": "nosey-aunty",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["unemployed partner", "I pay everything", "partner can't find work", "financial burden partner", "partner is unemployed", "partner doesn't have a job", "partner can't find a job"],
+    "text": "Unemployment can happen to anyone, so combine compassion with accountability. Agree on a job-search plan, household contributions and what you can sustain.",
+    "needsReview": true
+  },
+  {
+    "id": "unemployed-partner-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["unemployed partner", "I pay everything", "partner can't find work", "financial burden partner", "partner is unemployed", "partner doesn't have a job", "partner can't find a job"],
+    "text": "Discuss the financial reality without shaming. Agree on concrete steps, timelines and non-financial contributions while they seek work.",
+    "needsReview": true
+  },
+  {
+    "id": "unemployed-partner-hype",
+    "character": "hype-man",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["unemployed partner", "I pay everything", "partner can't find work", "financial burden partner", "partner is unemployed", "partner doesn't have a job", "partner can't find a job"],
+    "text": "THIS IS HARD ON BOTH OF YOU, but you cannot quietly carry the household forever. Make a plan together.",
+    "needsReview": true
+  },
+  {
+    "id": "unemployed-partner-sister",
+    "character": "crazy-little-sister",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["unemployed partner", "I pay everything", "partner can't find work", "financial burden partner", "partner is unemployed", "partner doesn't have a job", "partner can't find a job"],
+    "text": "Are you treating this as a shared problem or secretly becoming the entire finance department? Talk about the plan and effort.",
+    "needsReview": true
+  },
+  {
+    "id": "secret-purchase-aunty",
+    "character": "nosey-aunty",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["secret purchase", "partner spent money without telling me", "hidden spending", "financial secret", "spent money without telling me", "hid a purchase", "bought something without telling me"],
+    "text": "A surprise purchase is one thing; a secret that affects shared responsibilities is another. Discuss the amount, why it was hidden and what agreement you need.",
+    "needsReview": true
+  },
+  {
+    "id": "secret-purchase-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["secret purchase", "partner spent money without telling me", "hidden spending", "financial secret", "spent money without telling me", "hid a purchase", "bought something without telling me"],
+    "text": "Discuss the purchase, its effect on shared finances and why it was concealed. Agree on thresholds for joint decisions.",
+    "needsReview": true
+  },
+  {
+    "id": "secret-purchase-hype",
+    "character": "hype-man",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["secret purchase", "partner spent money without telling me", "hidden spending", "financial secret", "spent money without telling me", "hid a purchase", "bought something without telling me"],
+    "text": "THE PACKAGE ARRIVED BUT THE CONVERSATION DIDN'T?! Talk about the cost and why it was hidden. Set clear rules for shared money.",
+    "needsReview": true
+  },
+  {
+    "id": "secret-purchase-sister",
+    "character": "crazy-little-sister",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["secret purchase", "partner spent money without telling me", "hidden spending", "financial secret", "spent money without telling me", "hid a purchase", "bought something without telling me"],
+    "text": "Was this their own fun money or did they spend the rent? Those are VERY different conversations. Get the facts first.",
+    "needsReview": true
+  },
+  {
+    "id": "awful-boss-aunty",
+    "character": "nosey-aunty",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["awful boss", "takes credit for work", "boss undermines me", "hate my manager", "my boss is awful", "hate my boss"],
+    "text": "Keep records of your contributions, clarify ownership in writing and build a calm strategy. We protect your visibility and your career.",
+    "needsReview": true
+  },
+  {
+    "id": "awful-boss-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["awful boss", "takes credit for work", "boss undermines me", "hate my manager", "my boss is awful", "hate my boss"],
+    "text": "Document specific incidents and communicate your contributions clearly. Consider direct discussion or formal escalation if it continues.",
+    "needsReview": true
+  },
+  {
+    "id": "awful-boss-hype",
+    "character": "hype-man",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["awful boss", "takes credit for work", "boss undermines me", "hate my manager", "my boss is awful", "hate my boss"],
+    "text": "YOUR BOSS IS BUILDING A PERSONAL BRAND ON YOUR HARD WORK?! Keep receipts, make your contributions visible and stay strategic.",
+    "needsReview": true
+  },
+  {
+    "id": "awful-boss-sister",
+    "character": "crazy-little-sister",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["awful boss", "takes credit for work", "boss undermines me", "hate my manager", "my boss is awful", "hate my boss"],
+    "text": "Does your boss say “we achieved this” when you did the work, but “you failed” when anything goes wrong? Document the pattern.",
+    "needsReview": true
+  },
+  {
+    "id": "career-crossroads-aunty",
+    "character": "nosey-aunty",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["hate my job", "quit job", "career crossroads", "want to resign", "job destroying me", "i hate my job", "want to quit my job", "thinking of resigning"],
+    "text": "Before you send that resignation, look at your health, finances, options and timeline. Freedom is lovely; a plan makes it sustainable.",
+    "needsReview": true
+  },
+  {
+    "id": "career-crossroads-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["hate my job", "quit job", "career crossroads", "want to resign", "job destroying me", "i hate my job", "want to quit my job", "thinking of resigning"],
+    "text": "Assess your financial runway, obligations, notice period and alternatives. If unsafe or seriously harmed, prioritise support and a safer exit.",
+    "needsReview": true
+  },
+  {
+    "id": "career-crossroads-hype",
+    "character": "hype-man",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["hate my job", "quit job", "career crossroads", "want to resign", "job destroying me", "i hate my job", "want to quit my job", "thinking of resigning"],
+    "text": "YOU WANT TO WALK OUT WITH A MIC DROP! Get options, savings and a plan first. We are leaving strategically.",
+    "needsReview": true
+  },
+  {
+    "id": "career-crossroads-sister",
+    "character": "crazy-little-sister",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["hate my job", "quit job", "career crossroads", "want to resign", "job destroying me", "i hate my job", "want to quit my job", "thinking of resigning"],
+    "text": "Don't send the resignation while your blood pressure is doing choreography. Work out whether you need a new job, break or exit plan.",
+    "needsReview": true
+  },
+  {
+    "id": "envious-colleague-aunty",
+    "character": "nosey-aunty",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["colleague sabotages me", "envious coworker", "workplace sabotage", "colleague undermines me", "colleague is sabotaging me", "coworker is undermining me"],
+    "text": "Focus on specific behaviours, not guesses about jealousy. Keep professional records, make your work visible and avoid office gossip.",
+    "needsReview": true
+  },
+  {
+    "id": "envious-colleague-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["colleague sabotages me", "envious coworker", "workplace sabotage", "colleague undermines me", "colleague is sabotaging me", "coworker is undermining me"],
+    "text": "Document concrete incidents and their work impact. Communicate clearly and escalate through appropriate channels if needed.",
+    "needsReview": true
+  },
+  {
+    "id": "envious-colleague-hype",
+    "character": "hype-man",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["colleague sabotages me", "envious coworker", "workplace sabotage", "colleague undermines me", "colleague is sabotaging me", "coworker is undermining me"],
+    "text": "WHY IS THE OFFICE GIVING REALITY-TV VILLAIN ENERGY?! Stay professional, keep records and don't give them a reaction they can use.",
+    "needsReview": true
+  },
+  {
+    "id": "envious-colleague-sister",
+    "character": "crazy-little-sister",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["colleague sabotages me", "envious coworker", "workplace sabotage", "colleague undermines me", "colleague is sabotaging me", "coworker is undermining me"],
+    "text": "Don't spend all day proving they're jealous. Focus on what they did, keep receipts and protect your work.",
+    "needsReview": true
+  },
+  {
+    "id": "loan-request-aunty",
+    "character": "nosey-aunty",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["family wants loan", "friend asks money", "can't afford to lend", "loan request", "asked me for a loan", "wants to borrow money", "asked to borrow money"],
+    "text": "Only lend what you can afford to lose, and remember that “no” is a complete sentence. Your own bills are real too.",
+    "needsReview": true
+  },
+  {
+    "id": "loan-request-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["family wants loan", "friend asks money", "can't afford to lend", "loan request", "asked me for a loan", "wants to borrow money", "asked to borrow money"],
+    "text": "Review your obligations first. If you cannot comfortably afford the loan, decline clearly. If you lend, agree on terms in writing.",
+    "needsReview": true
+  },
+  {
+    "id": "loan-request-hype",
+    "character": "hype-man",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["family wants loan", "friend asks money", "can't afford to lend", "loan request", "asked me for a loan", "wants to borrow money", "asked to borrow money"],
+    "text": "YOU CAN CARE ABOUT SOMEBODY WITHOUT EMPTYING YOUR ACCOUNT! If you can't afford it, say so. Don't borrow to lend.",
+    "needsReview": true
+  },
+  {
+    "id": "loan-request-sister",
+    "character": "crazy-little-sister",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["family wants loan", "friend asks money", "can't afford to lend", "loan request", "asked me for a loan", "wants to borrow money", "asked to borrow money"],
+    "text": "Is this a loan or a donation with an optimistic backstory? Only give what you can afford not to get back.",
+    "needsReview": true
+  },
+  {
+    "id": "fake-rich-friend-aunty",
+    "character": "nosey-aunty",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["fake rich friend", "pretending rich", "flaunts lifestyle", "living beyond means", "pretends to be rich", "pretending to be rich", "living beyond their means"],
+    "text": "You don't need to expose them or prove anything. Just don't let their spending habits become your financial plan.",
+    "needsReview": true
+  },
+  {
+    "id": "fake-rich-friend-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["fake rich friend", "pretending rich", "flaunts lifestyle", "living beyond means", "pretends to be rich", "pretending to be rich", "living beyond their means"],
+    "text": "Do not assume you know their finances from appearances. Avoid financial competition and make decisions based on your own goals.",
+    "needsReview": true
+  },
+  {
+    "id": "fake-rich-friend-hype",
+    "character": "hype-man",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["fake rich friend", "pretending rich", "flaunts lifestyle", "living beyond means", "pretends to be rich", "pretending to be rich", "living beyond their means"],
+    "text": "THE LIFESTYLE IS FIRST CLASS AND THE BANK BALANCE MAY BE IN THE LUGGAGE HOLD! Don't copy a lifestyle you can't afford.",
+    "needsReview": true
+  },
+  {
+    "id": "fake-rich-friend-sister",
+    "character": "crazy-little-sister",
+    "topic": "money-and-work",
+    "priority": 2,
+    "keywords": ["fake rich friend", "pretending rich", "flaunts lifestyle", "living beyond means", "pretends to be rich", "pretending to be rich", "living beyond their means"],
+    "text": "Let them pose if they want. You don't need to investigate their bank account; just don't let the performance pressure you.",
+    "needsReview": true
+  },
+  {
+    "id": "accidental-like-aunty",
+    "character": "nosey-aunty",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["accidentally liked ex photo", "liked old photo", "social media embarrassment", "stalked ex", "accidentally liked", "liked my ex's photo", "liked an old photo"],
+    "text": "Unlike it if you can, breathe and do not send a five-paragraph explanation unless they ask.",
+    "needsReview": true
+  },
+  {
+    "id": "accidental-like-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["accidentally liked ex photo", "liked old photo", "social media embarrassment", "stalked ex", "accidentally liked", "liked my ex's photo", "liked an old photo"],
+    "text": "Undo the like if possible and leave it alone. Overexplaining may draw more attention than the mistake.",
+    "needsReview": true
+  },
+  {
+    "id": "accidental-like-hype",
+    "character": "hype-man",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["accidentally liked ex photo", "liked old photo", "social media embarrassment", "stalked ex", "accidentally liked", "liked my ex's photo", "liked an old photo"],
+    "text": "THE THUMB HAS BETRAYED THE MISSION! Unlike it, close the app and drink water. No “my phone was hacked” story.",
+    "needsReview": true
+  },
+  {
+    "id": "accidental-like-sister",
+    "character": "crazy-little-sister",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["accidentally liked ex photo", "liked old photo", "social media embarrassment", "stalked ex", "accidentally liked", "liked my ex's photo", "liked an old photo"],
+    "text": "HOW FAR DOWN WERE YOU SCROLLING?! Unlike it if you can, then put the phone down.",
+    "needsReview": true
+  },
+  {
+    "id": "wrong-message-aunty",
+    "character": "nosey-aunty",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["sent wrong message", "message went to wrong person", "criticised someone in text", "wrong chat", "texted the wrong person", "wrong group chat", "sent it to the wrong person"],
+    "text": "Don't send a panicked sequel. Own what you said, apologise if it was hurtful and keep the explanation brief and honest.",
+    "needsReview": true
+  },
+  {
+    "id": "wrong-message-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["sent wrong message", "message went to wrong person", "criticised someone in text", "wrong chat", "texted the wrong person", "wrong group chat", "sent it to the wrong person"],
+    "text": "Do not invent a hacking story. Acknowledge the message, apologise for harm and take responsibility.",
+    "needsReview": true
+  },
+  {
+    "id": "wrong-message-hype",
+    "character": "hype-man",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["sent wrong message", "message went to wrong person", "criticised someone in text", "wrong chat", "texted the wrong person", "wrong group chat", "sent it to the wrong person"],
+    "text": "THE MESSAGE HAS LEFT THE BUILDING! No fake “my phone was hacked” story. Own it and stop typing while panicked.",
+    "needsReview": true
+  },
+  {
+    "id": "wrong-message-sister",
+    "character": "crazy-little-sister",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["sent wrong message", "message went to wrong person", "criticised someone in text", "wrong chat", "texted the wrong person", "wrong group chat", "sent it to the wrong person"],
+    "text": "The group chat has become a crime scene. Don't send 14 follow-ups. Own what you said and apologise honestly.",
+    "needsReview": true
+  },
+  {
+    "id": "social-stalker-aunty",
+    "character": "nosey-aunty",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["someone saw me stalking social media", "monitoring profile", "obsessively checking social media", "caught me stalking", "saw me viewing their", "caught me looking at their profile"],
+    "text": "Ask whether checking their page is helping you move forward or keeping you stuck. Muting can give you breathing room.",
+    "needsReview": true
+  },
+  {
+    "id": "social-stalker-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["someone saw me stalking social media", "monitoring profile", "obsessively checking social media", "caught me stalking", "saw me viewing their", "caught me looking at their profile"],
+    "text": "Notice whether checking increases anxiety or interferes with life. Consider muting or blocking and respect their privacy.",
+    "needsReview": true
+  },
+  {
+    "id": "social-stalker-hype",
+    "character": "hype-man",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["someone saw me stalking social media", "monitoring profile", "obsessively checking social media", "caught me stalking", "saw me viewing their", "caught me looking at their profile"],
+    "text": "THE INVESTIGATION HAS BECOME A FULL-TIME UNPAID INTERNSHIP! If it makes you feel worse, mute the account and reclaim your time.",
+    "needsReview": true
+  },
+  {
+    "id": "social-stalker-sister",
+    "character": "crazy-little-sister",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["someone saw me stalking social media", "monitoring profile", "obsessively checking social media", "caught me stalking", "saw me viewing their", "caught me looking at their profile"],
+    "text": "Do you know their cousin's birthday and dog's favourite snack? If checking keeps you stuck, mute them and move on.",
+    "needsReview": true
+  },
+  {
+    "id": "work-crush-aunty",
+    "character": "nosey-aunty",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["work crush", "crush on colleague", "attracted to coworker", "office romance", "crush at work", "crush on a colleague", "crush on a coworker", "like someone at work"],
+    "text": "Consider workplace policies, power dynamics and whether this attraction is worth complicating your working life. A crush doesn't require an immediate plot twist.",
+    "needsReview": true
+  },
+  {
+    "id": "work-crush-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["work crush", "crush on colleague", "attracted to coworker", "office romance", "crush at work", "crush on a colleague", "crush on a coworker", "like someone at work"],
+    "text": "Consider workplace rules, reporting lines and the risk of making a colleague uncomfortable. Express interest respectfully if appropriate and accept no immediately.",
+    "needsReview": true
+  },
+  {
+    "id": "work-crush-hype",
+    "character": "hype-man",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["work crush", "crush on colleague", "attracted to coworker", "office romance", "crush at work", "crush on a colleague", "crush on a coworker", "like someone at work"],
+    "text": "THE MEETING AGENDA HAS A DISTRACTION! Enjoy the butterflies, but check the power dynamics and workplace policy first.",
+    "needsReview": true
+  },
+  {
+    "id": "work-crush-sister",
+    "character": "crazy-little-sister",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["work crush", "crush on colleague", "attracted to coworker", "office romance", "crush at work", "crush on a colleague", "crush on a coworker", "like someone at work"],
+    "text": "Are you going to work or to see your office crush? Keep boundaries clear and don't turn their workplace into a dating show.",
+    "needsReview": true
+  },
+  {
+    "id": "married-crush-aunty",
+    "character": "nosey-aunty",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["feelings for married person", "crush on married person", "attracted to married colleague", "crush on a married", "feelings for a married", "attracted to someone who is married"],
+    "text": "Feelings can appear without invitation, but what you do next is your responsibility. Keep boundaries while you work out what this attraction means.",
+    "needsReview": true
+  },
+  {
+    "id": "married-crush-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["feelings for married person", "crush on married person", "attracted to married colleague", "crush on a married", "feelings for a married", "attracted to someone who is married"],
+    "text": "Do not pursue a relationship that violates existing commitments. Create distance where needed and remember feelings are not instructions.",
+    "needsReview": true
+  },
+  {
+    "id": "married-crush-hype",
+    "character": "hype-man",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["feelings for married person", "crush on married person", "attracted to married colleague", "crush on a married", "feelings for a married", "attracted to someone who is married"],
+    "text": "THIS IS A COMPLICATED SIDE QUEST WE DO NOT NEED! Acknowledge the attraction without feeding it. Keep boundaries.",
+    "needsReview": true
+  },
+  {
+    "id": "married-crush-sister",
+    "character": "crazy-little-sister",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["feelings for married person", "crush on married person", "attracted to married colleague", "crush on a married", "feelings for a married", "attracted to someone who is married"],
+    "text": "The crush can exist without getting promoted into an affair. Keep your boundaries and don't mistake chemistry for permission.",
+    "needsReview": true
+  },
+  {
+    "id": "oversharing-aunty",
+    "character": "nosey-aunty",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["overshared", "shared too much", "regret telling personal information", "said too much", "i overshared", "regret telling them", "shared too much about myself"],
+    "text": "You don't need to keep explaining yourself. Decide whether anything needs clarifying, then let the moment pass.",
+    "needsReview": true
+  },
+  {
+    "id": "oversharing-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["overshared", "shared too much", "regret telling personal information", "said too much", "i overshared", "regret telling them", "shared too much about myself"],
+    "text": "Consider whether the information creates a real risk or whether this is normal post-conversation anxiety. Clarify your boundary if needed.",
+    "needsReview": true
+  },
+  {
+    "id": "oversharing-hype",
+    "character": "hype-man",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["overshared", "shared too much", "regret telling personal information", "said too much", "i overshared", "regret telling them", "shared too much about myself"],
+    "text": "THE OVERSHARING HAS BEEN COMPLETED AND THE BRAIN HAS FILED AN APPEAL! Take a breath and clarify once if necessary.",
+    "needsReview": true
+  },
+  {
+    "id": "oversharing-sister",
+    "character": "crazy-little-sister",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["overshared", "shared too much", "regret telling personal information", "said too much", "i overshared", "regret telling them", "shared too much about myself"],
+    "text": "Replaying the conversation 46 times won't reverse the audio. If it's private, ask them to keep it confidential, then move on.",
+    "needsReview": true
+  },
+  {
+    "id": "caught-lying-aunty",
+    "character": "nosey-aunty",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["caught lying", "partner caught me in lie", "friend found out I lied", "caught me lying", "caught in a lie", "found out i lied"],
+    "text": "The fastest route back to trust is a clean admission, not an elaborate director's cut. Explain why without using it as an excuse.",
+    "needsReview": true
+  },
+  {
+    "id": "caught-lying-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["caught lying", "partner caught me in lie", "friend found out I lied", "caught me lying", "caught in a lie", "found out i lied"],
+    "text": "Admit what was untrue, explain without shifting blame and be clear about what you will do differently. Trust takes consistent behaviour.",
+    "needsReview": true
+  },
+  {
+    "id": "caught-lying-hype",
+    "character": "hype-man",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["caught lying", "partner caught me in lie", "friend found out I lied", "caught me lying", "caught in a lie", "found out i lied"],
+    "text": "THE LIE HAS BEEN CAUGHT IN 4K! No sequel. Own it, apologise, explain what you'll change and let them have their feelings.",
+    "needsReview": true
+  },
+  {
+    "id": "caught-lying-sister",
+    "character": "crazy-little-sister",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["caught lying", "partner caught me in lie", "friend found out I lied", "caught me lying", "caught in a lie", "found out i lied"],
+    "text": "The lie has met its natural predator: the truth. Stop adding details to save the story. Admit it and apologise properly.",
+    "needsReview": true
+  },
+  {
+    "id": "awkward-reunion-aunty",
+    "character": "nosey-aunty",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["awkward reunion", "ran into person I treated badly", "old enemy doing well", "ran into someone from my past", "awkward seeing them again"],
+    "text": "Be gracious, and if you owe them an apology, offer it without expecting them to make you feel better.",
+    "needsReview": true
+  },
+  {
+    "id": "awkward-reunion-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["awkward reunion", "ran into person I treated badly", "old enemy doing well", "ran into someone from my past", "awkward seeing them again"],
+    "text": "Do not turn their success into a verdict on your life. If you treated them badly, acknowledge it without demanding forgiveness.",
+    "needsReview": true
+  },
+  {
+    "id": "awkward-reunion-hype",
+    "character": "hype-man",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["awkward reunion", "ran into person I treated badly", "old enemy doing well", "ran into someone from my past", "awkward seeing them again"],
+    "text": "THE PAST HAS WALKED INTO THE ROOM LOOKING AMAZING! Be gracious. If you owe them an apology, give one without excuses.",
+    "needsReview": true
+  },
+  {
+    "id": "awkward-reunion-sister",
+    "character": "crazy-little-sister",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["awkward reunion", "ran into person I treated badly", "old enemy doing well", "ran into someone from my past", "awkward seeing them again"],
+    "text": "Suddenly you remember every rude thing you said? Be polite. If you were wrong, own it; don't pretend you were always close.",
+    "needsReview": true
+  },
+  {
+    "id": "secret-resentment-aunty",
+    "character": "nosey-aunty",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["jealous of friend success", "resent friend's success", "can't celebrate friend", "feel jealous", "resent my friend's success", "can't be happy for my friend", "can't celebrate my friend"],
+    "text": "That doesn't make you a terrible friend. Be honest about what their success brings up, then work out what you want for your own life.",
+    "needsReview": true
+  },
+  {
+    "id": "secret-resentment-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["jealous of friend success", "resent friend's success", "can't celebrate friend", "feel jealous", "resent my friend's success", "can't be happy for my friend", "can't celebrate my friend"],
+    "text": "Jealousy can reveal an unmet desire, but it doesn't justify undermining someone. Congratulate them sincerely if you can and work toward your own goal.",
+    "needsReview": true
+  },
+  {
+    "id": "secret-resentment-hype",
+    "character": "hype-man",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["jealous of friend success", "resent friend's success", "can't celebrate friend", "feel jealous", "resent my friend's success", "can't be happy for my friend", "can't celebrate my friend"],
+    "text": "TWO THINGS CAN BE TRUE: YOU LOVE YOUR FRIEND AND WISH YOUR OWN LIFE WERE MOVING FASTER! Don't sabotage them.",
+    "needsReview": true
+  },
+  {
+    "id": "secret-resentment-sister",
+    "character": "crazy-little-sister",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["jealous of friend success", "resent friend's success", "can't celebrate friend", "feel jealous", "resent my friend's success", "can't be happy for my friend", "can't celebrate my friend"],
+    "text": "You can be happy for your friend and still wonder when it's your turn. Don't make them pay for a feeling you need to work through.",
+    "needsReview": true
+  },
+  {
+    "id": "unpopular-opinion-aunty",
+    "character": "nosey-aunty",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["unpopular opinion", "friends disagree with my opinion", "family won't accept my opinion", "friends don't agree with me", "family won't accept my choice"],
+    "text": "Ask whether you want to be understood, change minds or simply express yourself. Those are different goals, darling.",
+    "needsReview": true
+  },
+  {
+    "id": "unpopular-opinion-uncle",
+    "character": "no-mercy-uncle",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["unpopular opinion", "friends disagree with my opinion", "family won't accept my opinion", "friends don't agree with me", "family won't accept my choice"],
+    "text": "Explain your view clearly and listen to why others disagree. You don't need to win every debate, and evidence may change your mind.",
+    "needsReview": true
+  },
+  {
+    "id": "unpopular-opinion-hype",
+    "character": "hype-man",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["unpopular opinion", "friends disagree with my opinion", "family won't accept my opinion", "friends don't agree with me", "family won't accept my choice"],
+    "text": "THE GROUP CHAT HAS ENTERED PARLIAMENTARY DEBATE! Stand by what you believe if you've thought it through, but listen too.",
+    "needsReview": true
+  },
+  {
+    "id": "unpopular-opinion-sister",
+    "character": "crazy-little-sister",
+    "topic": "messy-business",
+    "priority": 2,
+    "keywords": ["unpopular opinion", "friends disagree with my opinion", "family won't accept my opinion", "friends don't agree with me", "family won't accept my choice"],
+    "text": "Did you share an opinion or drop a grenade into Sunday lunch? Explain yourself, listen, and decide whether the debate is worth continuing.",
     "needsReview": true
   }
 ]

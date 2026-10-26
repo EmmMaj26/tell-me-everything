@@ -4,16 +4,27 @@
   line-height: 1.45;
   background: #f7f1e8;
   color: #1c1a17;
+  --plum: #2c1b3d;
+  --cream: #fffdf8;
+  --ink: #1c1a17;
+  --aunty: #f8e4ee;
+  --uncle: #f6efe8;
+  --hype: #eef6ea;
+  --sister: #f8e7f2;
 }
 
 body {
   margin: 0 auto;
-  max-width: 40rem;
+  max-width: 68rem;
   padding: 1.25rem;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 .age-notice {
-  margin: 0 0 1.5rem;
+  margin: 0 0 1.25rem;
   font-family: "Avenir Next", "Segoe UI", sans-serif;
   font-size: 0.85rem;
   letter-spacing: 0.02em;
@@ -21,13 +32,24 @@ body {
 
 h1,
 h2 {
-  font-family: "Avenir Next Condensed", "Avenir Next", "Segoe UI", sans-serif;
-  line-height: 1.1;
+  font-family: "Avenir Next Condensed", "Avenir Next", "Arial Narrow", "Segoe UI", sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  line-height: 0.95;
   margin: 0 0 0.5rem;
 }
 
 h1 {
-  font-size: 2.4rem;
+  font-size: clamp(3rem, 8vw, 5.2rem);
+  padding-bottom: 0.45rem;
+  background-image: linear-gradient(90deg, #6b2348 0 25%, #3b2b1f 25% 50%, #0f3d2e 50% 75%, #2c1b3d 75% 100%);
+  background-repeat: no-repeat;
+  background-size: 7.5rem 7px;
+  background-position: left bottom;
+}
+
+h2 {
+  font-size: clamp(2rem, 4vw, 2.8rem);
 }
 
 .tagline,
@@ -38,7 +60,91 @@ h1 {
 }
 
 .tagline {
-  font-size: 1.25rem;
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+  font-size: clamp(1.35rem, 2.4vw, 1.85rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.support,
+.nudge,
+.blurb,
+.cast-name,
+.bubble,
+label,
+button,
+.hint,
+.situation-summary,
+.review-label,
+.age-notice {
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+}
+
+.welcome-layout {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.cast {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.45rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cast-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 0;
+}
+
+.cast-name {
+  margin: 0;
+  font-size: 0.68rem;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.bubble {
+  position: relative;
+  margin: 0.45rem 0 0;
+  padding: 0.4rem 0.45rem;
+  border: 2px solid var(--ink);
+  border-radius: 0.85rem 0.85rem 0.85rem 0.25rem;
+  background-color: var(--cream);
+  background-image: radial-gradient(rgba(28, 26, 23, 0.16) 0.6px, transparent 0.75px);
+  background-size: 5px 5px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.bubble::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: 0.7rem;
+  border: 6px solid transparent;
+  border-bottom-color: var(--ink);
+}
+
+.cast-card.nosey-aunty .bubble {
+  background-color: var(--aunty);
+}
+
+.cast-card.no-mercy-uncle .bubble {
+  background-color: var(--uncle);
+}
+
+.cast-card.hype-man .bubble {
+  background-color: var(--hype);
+}
+
+.cast-card.crazy-little-sister .bubble {
+  background-color: var(--sister);
 }
 
 form,
@@ -47,28 +153,51 @@ form,
   gap: 0.75rem;
 }
 
+.situation-card {
+  position: relative;
+  background-color: var(--cream);
+  background-image: radial-gradient(rgba(44, 27, 61, 0.07) 0.7px, transparent 0.85px);
+  background-size: 8px 8px;
+  border: 3px solid var(--ink);
+  border-radius: 1.35rem;
+  padding: 1.15rem 1rem 1.15rem;
+  box-shadow: 7px 7px 0 var(--plum);
+}
+
+.situation-card::before {
+  content: "";
+  position: absolute;
+  left: 1rem;
+  right: 1rem;
+  top: -7px;
+  height: 8px;
+  border: 2px solid var(--ink);
+  background: linear-gradient(90deg, var(--aunty), var(--uncle), var(--hype), var(--sister));
+}
+
 label {
-  font-family: "Avenir Next", "Segoe UI", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
 }
 
 textarea {
   width: 100%;
   box-sizing: border-box;
-  font: 1.05rem/1.4 "Iowan Old Style", Georgia, serif;
-  padding: 0.75rem;
-  border: 2px solid #1c1a17;
-  background: #fffdf8;
+  min-height: 9rem;
+  font: 1.08rem/1.45 "Iowan Old Style", Georgia, serif;
+  padding: 0.9rem;
+  border: 3px solid var(--ink);
+  border-radius: 0.9rem;
+  background: var(--cream);
 }
 
 button {
-  font-family: "Avenir Next", "Segoe UI", sans-serif;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 1rem;
   padding: 0.75rem 1rem;
-  border: 2px solid #1c1a17;
-  background: #1c1a17;
-  color: #fffdf8;
+  border: 2px solid var(--ink);
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--cream);
   cursor: pointer;
 }
 
@@ -78,10 +207,156 @@ button:disabled {
   cursor: not-allowed;
 }
 
+#submit-situation,
+#surprise-me,
+#let-speak,
+#ask-group,
+#ask-pair,
+#hear-both {
+  width: 100%;
+  padding: 0.95rem 1rem;
+  font-size: 1.15rem;
+}
+
+.choice-actions {
+  display: grid;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+#ask-group,
+#ask-pair {
+  background: var(--plum);
+  border-color: var(--plum);
+}
+
+.card:disabled {
+  opacity: 0.45;
+}
+
+#change-pair {
+  width: 100%;
+}
+
+.speech-row,
+.group-turn .hear-response {
+  margin-top: 0.75rem;
+}
+
+.speech-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.group-turn .hear-response,
+#hear-response {
+  font-size: 1.05rem;
+}
+
+[data-stop-speech]:not([hidden]) {
+  position: sticky;
+  top: 0.5rem;
+  z-index: 2;
+}
+
+.speech-note {
+  flex-basis: 100%;
+}
+
+.group-list {
+  display: grid;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.group-turn .identity .portrait {
+  width: 5.75rem;
+  height: 7.67rem;
+  min-width: 5.75rem;
+  min-height: 7.67rem;
+}
+
+.group-turn.nosey-aunty h2 {
+  color: #6b2348;
+}
+
+.group-turn.no-mercy-uncle h2 {
+  color: #3b2b1f;
+}
+
+.group-turn.hype-man h2 {
+  color: #0f3d2e;
+}
+
+.group-turn.crazy-little-sister h2 {
+  color: #2c1b3d;
+}
+
+.group-turn.nosey-aunty .reply:not(.safety-reply) {
+  background-color: var(--aunty);
+}
+
+.group-turn.no-mercy-uncle .reply:not(.safety-reply) {
+  background-color: var(--uncle);
+}
+
+.group-turn.hype-man .reply:not(.safety-reply) {
+  background-color: var(--hype);
+}
+
+.group-turn.crazy-little-sister .reply:not(.safety-reply) {
+  background-color: var(--sister);
+}
+
+.surprise-panel {
+  display: grid;
+  gap: 0.75rem;
+  padding: 1rem;
+  border: 2px solid var(--ink);
+  border-radius: 1.25rem;
+  background: var(--cream);
+}
+
+.surprise-panel p {
+  margin: 0;
+  font-family: "Iowan Old Style", Palatino, Georgia, serif;
+}
+
+#submit-situation {
+  background: var(--plum);
+  border-color: var(--plum);
+  color: var(--cream);
+}
+
+#submit-situation:disabled {
+  background: #d9d3c9;
+  border-color: #1c1a17;
+  color: #5c564e;
+}
+
 .hint {
   margin: 0;
   color: #7a2f45;
-  font-family: "Avenir Next", "Segoe UI", sans-serif;
+}
+
+.welcome-form {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.nav-row,
+.actions,
+.summary-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.nav-row {
+  margin-bottom: 0.5rem;
 }
 
 .cards {
@@ -89,14 +364,130 @@ button:disabled {
 }
 
 .card {
+  display: grid;
+  grid-template-columns: 5.75rem 1fr;
+  gap: 0.75rem;
+  align-items: center;
   text-align: left;
-  background: #fffdf8;
-  color: #1c1a17;
+  background: var(--cream);
+  color: var(--ink);
+  border-radius: 1.25rem 1.25rem 1.25rem 0.35rem;
+}
+
+.card.nosey-aunty {
+  background: var(--aunty);
+}
+
+.card.no-mercy-uncle {
+  background: var(--uncle);
+}
+
+.card.hype-man {
+  background: var(--hype);
+}
+
+.card.crazy-little-sister {
+  background: var(--sister);
 }
 
 .card[aria-pressed="true"] {
-  outline: 3px solid #1c1a17;
-  background: #fff;
+  outline: 3px solid var(--ink);
+  outline-offset: 2px;
+}
+
+.portrait {
+  display: block;
+  width: 5.75rem;
+  height: 7.67rem;
+  min-width: 5.75rem;
+  min-height: 7.67rem;
+  flex: none;
+}
+
+.cast .portrait {
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+  min-height: 0;
+  aspect-ratio: 6 / 5;
+  border: 2px solid var(--ink);
+  border-radius: 0.85rem;
+  overflow: hidden;
+}
+
+.cast-card.nosey-aunty .portrait {
+  background: var(--aunty);
+}
+
+.cast-card.no-mercy-uncle .portrait {
+  background: var(--uncle);
+}
+
+.cast-card.hype-man .portrait {
+  background: var(--hype);
+}
+
+.cast-card.crazy-little-sister .portrait {
+  background: var(--sister);
+}
+
+.portrait img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.cast .portrait img {
+  object-fit: cover;
+  object-position: center top;
+}
+
+.identity {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 0.75rem;
+}
+
+.identity .portrait {
+  width: 8.5rem;
+  height: 11.33rem;
+  min-width: 8.5rem;
+  min-height: 11.33rem;
+}
+
+#response[data-character="nosey-aunty"] h2 {
+  color: #6b2348;
+}
+
+#response[data-character="no-mercy-uncle"] h2 {
+  color: #3b2b1f;
+}
+
+#response[data-character="hype-man"] h2 {
+  color: #0f3d2e;
+}
+
+#response[data-character="crazy-little-sister"] h2 {
+  color: #2c1b3d;
+}
+
+#response[data-character="nosey-aunty"] .reply {
+  background-color: var(--aunty);
+}
+
+#response[data-character="no-mercy-uncle"] .reply {
+  background-color: var(--uncle);
+}
+
+#response[data-character="hype-man"] .reply {
+  background-color: var(--hype);
+}
+
+#response[data-character="crazy-little-sister"] .reply {
+  background-color: var(--sister);
 }
 
 .card small {
@@ -106,21 +497,323 @@ button:disabled {
 }
 
 .reply {
+  position: relative;
   font-size: 1.2rem;
   white-space: pre-wrap;
+  margin: 0.6rem 0 0.9rem;
+  padding: 1rem 1.1rem;
+  border: 3px solid var(--ink);
+  border-radius: 1.25rem 1.25rem 1.25rem 0.35rem;
+  background-color: var(--cream);
+  background-image: radial-gradient(rgba(28, 26, 23, 0.1) 0.6px, transparent 0.75px);
+  background-size: 6px 6px;
+}
+
+.reply::before {
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: 1.4rem;
+  border: 8px solid transparent;
+  border-bottom-color: var(--ink);
 }
 
 .review-label {
   display: inline-block;
   margin: 0 0 0.75rem;
   padding: 0.2rem 0.5rem;
-  font-family: "Avenir Next", "Segoe UI", sans-serif;
   font-size: 0.8rem;
-  font-weight: 700;
+  font-weight: 800;
   background: #f3d36b;
-  color: #1c1a17;
+  color: var(--ink);
 }
 
 .situation-summary {
+  margin: 0;
+  padding: 0.75rem 0.9rem;
+  border: 2px solid var(--ink);
+  border-radius: 1rem 1rem 1rem 0.3rem;
+  background-color: var(--cream);
+  background-image: radial-gradient(rgba(28, 26, 23, 0.1) 0.55px, transparent 0.7px);
+  background-size: 5px 5px;
+  flex: 1 1 16rem;
+}
+
+.situation-summary span {
+  white-space: pre-wrap;
+}
+
+.summary-row {
+  justify-content: space-between;
+}
+
+button.secondary {
+  background: var(--cream);
+  color: var(--ink);
+}
+
+button.secondary:disabled {
+  background: #d9d3c9;
+  color: #5c564e;
+}
+
+.confirm {
+  position: fixed;
+  inset: 0;
+  z-index: 5;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: rgba(28, 26, 23, 0.45);
+}
+
+.confirm-card {
+  width: min(100%, 24rem);
+  padding: 1.25rem;
+  border: 3px solid var(--ink);
+  border-radius: 1.2rem;
+  background: var(--cream);
+}
+
+.confirm-card p {
+  margin: 0 0 1rem;
   font-family: "Avenir Next", "Segoe UI", sans-serif;
+  font-size: 1.15rem;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+@media (min-width: 52rem) {
+  .welcome-layout {
+    grid-template-columns: minmax(0, 1.15fr) minmax(18rem, 0.95fr);
+    grid-template-areas:
+      "intro cast"
+      "form cast";
+    align-items: start;
+    column-gap: 2rem;
+    row-gap: 1rem;
+  }
+
+  .welcome-intro {
+    grid-area: intro;
+  }
+
+  .welcome-form {
+    grid-area: form;
+  }
+
+  .cast {
+    grid-area: cast;
+    grid-template-columns: 1fr;
+    gap: 0.85rem;
+  }
+
+  .cast-card {
+    display: grid;
+    grid-template-columns: 7.5rem minmax(0, 1fr);
+    gap: 0.75rem;
+    align-items: center;
+  }
+
+  .cast .portrait {
+    width: 7.5rem;
+    height: 10rem;
+    aspect-ratio: auto;
+  }
+
+  .cast .portrait img {
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .cast-name {
+    font-size: 0.95rem;
+  }
+
+  .bubble {
+    margin: 0;
+    font-size: 1rem;
+    padding: 0.7rem 0.8rem 0.7rem 0.95rem;
+  }
+
+  .bubble::before {
+    top: 0.85rem;
+    left: -8px;
+    border: 6px solid transparent;
+    border-right-color: var(--ink);
+    border-bottom-color: transparent;
+  }
+
+  .cards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 36rem) {
+  body {
+    padding: 0.75rem;
+  }
+
+  #hear-response,
+  .group-turn .hear-response,
+  [data-stop-speech] {
+    width: 100%;
+  }
+
+  .identity {
+    align-items: flex-start;
+  }
+
+  .identity .portrait {
+    width: 6.5rem;
+    height: 8.67rem;
+    min-width: 6.5rem;
+    min-height: 8.67rem;
+  }
+
+  .cast {
+    gap: 0.4rem;
+  }
+}
+
+.is-speaking .portrait {
+  outline: 3px solid var(--ink);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .cast-card,
+  .arrive,
+  .reveal {
+    animation: arrive 0.42s ease both;
+  }
+
+  .cast-card:nth-child(2),
+  .cards .arrive:nth-child(2),
+  .group-list .arrive:nth-child(2) {
+    animation-delay: 0.05s;
+  }
+
+  .cast-card:nth-child(3),
+  .cards .arrive:nth-child(3),
+  .group-list .arrive:nth-child(3) {
+    animation-delay: 0.1s;
+  }
+
+  .cast-card:nth-child(4),
+  .cards .arrive:nth-child(4),
+  .group-list .arrive:nth-child(4) {
+    animation-delay: 0.15s;
+  }
+
+  .react.nosey-aunty .portrait img,
+  #response[data-character="nosey-aunty"].react .portrait img {
+    animation: aunty-lean 0.7s ease;
+  }
+
+  .react.no-mercy-uncle .portrait img,
+  #response[data-character="no-mercy-uncle"].react .portrait img {
+    animation: uncle-settle 0.55s ease;
+  }
+
+  .react.hype-man .portrait img,
+  #response[data-character="hype-man"].react .portrait img {
+    animation: hype-lift 0.6s ease;
+  }
+
+  .react.crazy-little-sister .portrait img,
+  #response[data-character="crazy-little-sister"].react .portrait img {
+    animation: sister-glance 0.65s ease;
+  }
+
+  .is-speaking .portrait {
+    animation: speaking-cue 1.8s ease-in-out infinite;
+  }
+
+  .group-turn.is-speaking.nosey-aunty .portrait img,
+  #response.is-speaking[data-character="nosey-aunty"] .portrait img {
+    animation: aunty-speak 2.8s ease-in-out infinite;
+  }
+
+  .group-turn.is-speaking.no-mercy-uncle .portrait img,
+  #response.is-speaking[data-character="no-mercy-uncle"] .portrait img {
+    animation: uncle-speak 2.2s ease-in-out infinite;
+  }
+
+  .group-turn.is-speaking.hype-man .portrait img,
+  #response.is-speaking[data-character="hype-man"] .portrait img {
+    animation: hype-speak 1.15s ease-in-out infinite;
+  }
+
+  .group-turn.is-speaking.crazy-little-sister .portrait img,
+  #response.is-speaking[data-character="crazy-little-sister"] .portrait img {
+    animation: sister-speak 1.8s ease-in-out infinite;
+  }
+}
+
+@keyframes arrive {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes aunty-lean {
+  0% { transform: rotate(0deg); }
+  45% { transform: rotate(-2.5deg); }
+  100% { transform: rotate(0deg); }
+}
+
+@keyframes uncle-settle {
+  from { transform: translateY(-3px); }
+  to { transform: none; }
+}
+
+@keyframes hype-lift {
+  0% { transform: translateY(0); }
+  40% { transform: translateY(-5px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes sister-glance {
+  0% { transform: translateX(0); }
+  45% { transform: translateX(4px); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes speaking-cue {
+  0%,
+  100% { outline-color: rgba(28, 26, 23, 0.35); }
+  50% { outline-color: var(--ink); }
+}
+
+@keyframes aunty-speak {
+  0%,
+  100% { transform: rotate(0deg); }
+  50% { transform: rotate(-2.5deg); }
+}
+
+@keyframes uncle-speak {
+  0%,
+  100% { transform: translateY(0); }
+  40% { transform: translateY(3px); }
+  70% { transform: translateY(1px); }
+}
+
+@keyframes hype-speak {
+  0%,
+  100% { transform: translateY(0); }
+  35% { transform: translateY(-4px); }
+  55% { transform: translateY(-1px); }
+}
+
+@keyframes sister-speak {
+  0%,
+  100% { transform: translateX(0) rotate(0deg); }
+  40% { transform: translateX(3px) rotate(1.5deg); }
+  70% { transform: translateX(1px) rotate(0.4deg); }
 }
